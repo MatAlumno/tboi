@@ -1,0 +1,38 @@
+/* Header.css */
+
+.header {
+  text-align: center;
+  padding: 1rem;
+}
+.logo {
+  width: 75vw;
+  max-width: 90vw;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem;
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Remueve el padding adicional */
+  margin: 0;
+}
+
+.nav-links li {
+  flex: 1 1 5%; 
+}
+.nav-links a {
+  display: inline-block;
+  color: #310000;
+  font-size: 3vw;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #ffdddd5e;
+}
+
