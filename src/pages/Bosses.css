@@ -1,0 +1,68 @@
+.bosses-container {
+  display: flex; /* Mantenemos el flex para categorías y galería */
+  width: 100vw; /* Ancho completo */
+  height: 100vh; /* Altura completa */
+}
+
+.categories {
+  width: 30%; /* Ocupa el 30% del contenedor */
+  padding: 2vw; /* Espaciado responsivo */
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Evitar el desbordamiento */
+}
+
+.category-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw; /* Espaciado entre botones */
+}
+
+.category-button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white;
+  border: none;
+  padding: 1vw; /* Espaciado interno */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem; /* Tamaño de fuente responsivo */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.category-button:hover {
+  background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+.category-button.active {
+  background-color: #0056b3; /* Color activo */
+}
+
+.boss-gallery {
+  width: 70%; /* Ocupa el 70% del contenedor */
+  padding: 2vw;
+  overflow-x: auto; /* Desplazamiento horizontal */
+  white-space: nowrap; /* Asegura que el contenido no se envuelva */
+}
+
+.gallery {
+  display: inline-flex; /* Permite que los elementos se mantengan en línea */
+}
+
+.boss-card {
+  text-align: center;
+  display: inline-block; /* Permite que las tarjetas se mantengan en línea */
+  width: 200px; /* Ancho fijo para las tarjetas */
+  margin: 0 10px; /* Espacio horizontal entre tarjetas */
+}
+
+.boss-image {
+  width: 100%; /* Ancho completo */
+  height: auto; /* Mantiene la proporción */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.boss-name {
+  margin-top: 1vw; /* Espacio entre la imagen y el nombre */
+  font-size: 1rem; /* Tamaño de fuente responsivo */
+}

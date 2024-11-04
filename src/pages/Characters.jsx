@@ -1,8 +1,24 @@
+// Characters.jsx
+import React, { useState } from "react";
+import PopupCard from "../components/PopupCard";
 
 const Characters = () => {
-    return (
-      <h2>Characters</h2>
-    );
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
   };
-  
-  export default Characters;
+
+  return (
+    <div>
+      <h2>Characters</h2>
+      <button onClick={togglePopup}>Mostrar Información</button>
+      <PopupCard isOpen={isOpen} togglePopup={togglePopup}>
+        <h3>Información del Personaje</h3>
+        <p>Aquí puedes agregar detalles personalizados sobre el personaje.</p>
+      </PopupCard>
+    </div>
+  );
+};
+
+export default Characters;

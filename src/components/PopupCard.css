@@ -1,0 +1,43 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.popup-card {
+  background-color: #1d1313f1;
+  margin-right: 6vw;
+  padding: 4vw;
+  border-radius: 3vw;
+  width: 25vw;
+  max-width: 40vh;
+  height: 35vw;
+  max-height: 55vh;
+  box-shadow: 0 4px 8px rgb(255, 101, 101);
+  text-align: left;
+  transform: translateX(100%);
+  transition: transform 4.4s ease; /* Animación para que aparezca suavemente desde la derecha */
+}
+
+.popup-overlay.show .popup-card {
+  transform: translateX(0); /* La tarjeta aparece desde la derecha */
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.popup-content {
+  font-size: 1rem;
+  color: #ff3f3f;
+}
