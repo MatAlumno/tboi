@@ -9,6 +9,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url('/public/imagenes/cursor-default.png'), auto;
+}
+
+*:active {
+  cursor: url('/public/imagenes/cursor-click.png'), auto;
+}
+
+a {
+  cursor: url('/public/imagenes/cursor-pointer.png'), pointer;
+}
+
+body.waiting {
+  cursor: url('/public/imagenes/cursor-wait.png'), wait;
+}
+
+body, input, textarea {
+  cursor: url('/public/imagenes/cursor-text.png'), text;
+}
+
+.full-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
 }
 
 body {
@@ -32,16 +59,15 @@ body {
 }
 
 .container {
-  width: 80vw;
-  max-width: 90vw;
-  height: 100vh;
-  background-image: url('/public/images/page2.png');
+  width: 70vw;
+  max-width: 80vw;
+  height: 120vh;
+  background-image: url('/public/images/unnamed.png');
   background-size: 100% 100%;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 4vw;
+  padding: 5vw;
   overflow-y: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);

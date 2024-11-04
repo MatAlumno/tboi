@@ -17,9 +17,12 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <Router>
+      <img src="/images/fly.gif" alt="shadow"/>
+      <img src="/images/menuoverlay.png" alt="shadow" className="full-cover"/>
+      <img src="/images/menushadow.png" alt="shadow" className="full-cover"/>  
+      <Router> 
         <div className="App">
-          <Header className="container"/>
+          <Header />
           <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />

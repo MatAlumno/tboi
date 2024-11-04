@@ -2,13 +2,13 @@
 
 .header {
   text-align: center;
-  padding: 1rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
-.logo {
-  width: 75vw;
-  max-width: 90vw;
+.logo-header {
+  width: 55vw;
+  max-width: 60vw;
   height: auto;
-  margin-bottom: 1rem;
 }
 
 .nav-links {
@@ -16,18 +16,18 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.2rem;
-  list-style: none; /* Elimina los puntos de la lista */
-  padding: 0; /* Remueve el padding adicional */
+  list-style: none; 
+  padding: 0; 
   margin: 0;
 }
 
 .nav-links li {
-  flex: 1 1 5%; 
+  flex: 1 1 10%; 
 }
 .nav-links a {
   display: inline-block;
   color: #310000;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s;
 }

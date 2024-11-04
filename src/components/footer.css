@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.0rem 6rem;
+}
+
+.logo-footer {
+  width: 25vw;
+  height: auto;
+}
+
+.text-footer p {
+  font-size: 1.3rem; 
+  margin: 0;
+}
+
+.links-footer {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+
+.links-footer a {
+  font-size: 1.2rem;
+  color: #310000;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.links-footer a:hover {
+  background-color: #ffdddd5e;
+}

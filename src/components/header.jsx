@@ -6,7 +6,7 @@ import './header.css';
 const Header = () => {
   return (
     <div className="header">
-      <img src="/images/logo.png" alt="tboi" className="logo" />
+      <img src="/images/logo.png" alt="tboi" className="logo-header" />
       <nav>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
