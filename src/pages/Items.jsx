@@ -9,7 +9,7 @@ const Items = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/items"); // Cambia la URL si es necesario
+        const response = await axios.get("http://localhost:3000/Items"); // Cambia la URL si es necesario
         setItems(response.data);
         setFilteredItems(response.data);
       } catch (error) {

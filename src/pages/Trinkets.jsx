@@ -9,7 +9,7 @@ const Trinkets = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/trinkets"); // Cambia la URL si es necesario
+        const response = await axios.get("http://localhost:3000/Trinkets"); // Cambia la URL si es necesario
         setTrinkets(response.data);
         setFilteredTrinkets(response.data);
       } catch (error) {
@@ -29,7 +29,7 @@ const Trinkets = () => {
   }, [searchTerm, trinkets]);
 
   const getDefaultValue = (value) => {
-    return value || "No disponible"; // Valor por defecto si está vacío o undefined
+    return value || "-"; // Valor por defecto si está vacío o undefined
   };
 
   return (

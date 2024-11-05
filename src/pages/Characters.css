@@ -1,0 +1,26 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos */
+  gap: 20px; /* Espaciado entre las tarjetas */
+  padding: 20px; /* Espacio alrededor de la galería */
+}
+
+.character-card {
+  border: 2px solid #ccc; /* Bordes de la tarjeta */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  max-width: 150px; /* Ancho máximo de cada tarjeta */
+  transition: transform 0.2s; /* Transición suave al hacer hover */
+}
+
+.character-card:hover {
+  transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+}
+
+.character-card img {
+  width: 100%; /* Hace que la imagen ocupe el 100% del ancho de la tarjeta */
+  border-radius: 5px; /* Bordes redondeados de la imagen */
+}

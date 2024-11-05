@@ -1,0 +1,54 @@
+.enemies-container {
+  display: flex;
+  height: 100vh;
+}
+
+.gallery {
+  width: 70%; /* Ajusta el ancho según tus necesidades */
+  padding: 10px;
+  overflow-y: auto; /* Permite el desplazamiento vertical si hay muchos enemigos */
+}
+
+.search-bar {
+  width: 100%; /* El campo de búsqueda ocupa todo el ancho */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Espacio debajo del campo de búsqueda */
+}
+
+.enemy-list {
+  display: flex;
+  flex-direction: column; /* Coloca los enemigos en columna */
+}
+
+.enemy-card {
+  display: flex;
+  align-items: center;
+  margin: 5px 0; /* Espaciado entre enemigos */
+  cursor: pointer; /* Indica que la imagen es clickeable */
+}
+
+.enemy-image {
+  width: 50px; /* Tamaño de la imagen en la galería */
+  height: auto;
+  margin-right: 10px; /* Espacio entre imagen y nombre */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.details {
+  width: 30%; /* Ajusta el ancho según tus necesidades */
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+  border-left: 2px solid #007bff; /* Línea de separación */
+  overflow-y: auto; /* Permite desplazamiento vertical */
+}
+
+.details h2 {
+  margin-bottom: 10px; /* Espaciado entre el título y la descripción */
+}
+
+.details img {
+  width: 100%; /* La imagen grande ocupa el 100% del ancho disponible */
+  height: auto;
+}
