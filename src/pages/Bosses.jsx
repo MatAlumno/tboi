@@ -29,46 +29,44 @@ const Bosses = () => {
   );
 
   return (
-    <div className="container">
-      <div className="bosses-container">
-        <div className="categories">
-          <h2>Clasificaciones</h2>
-          <div className="category-buttons">
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-                className={`category-button ${
-                  selectedCategory === category ? "active" : ""
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
+    <div className="bosses-container">
+      <div className="categories">
+        <h2>Clasificaciones</h2>
+        <div className="category-buttons">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`category-button ${
+                selectedCategory === category ? "active" : ""
+              }`}
+            >
+              {category}
+            </button>
+          ))}
         </div>
+      </div>
 
-        {/* Solo se añade scroll a la galería de jefes */}
-        <div className="boss-gallery">
-          {filteredBosses.length > 0 ? (
-            <div className="gallery">
-              {filteredBosses.map((boss) =>
-                boss.images.map((image, index) => (
-                  <div key={index} className="boss-card">
-                    <img
-                      src={image.url}
-                      alt={image.name}
-                      className="boss-image"
-                    />
-                    <p className="boss-name">{image.name}</p>
-                  </div>
-                ))
-              )}
-            </div>
-          ) : (
-            <p>No hay jefes disponibles en esta categoría.</p>
-          )}
-        </div>
+      {/* Solo se añade scroll a la galería de jefes */}
+      <div className="boss-gallery">
+        {filteredBosses.length > 0 ? (
+          <div className="gallery">
+            {filteredBosses.map((boss) =>
+              boss.images.map((image, index) => (
+                <div key={index} className="boss-card">
+                  <img
+                    src={image.url}
+                    alt={image.name}
+                    className="boss-image"
+                  />
+                  <p className="boss-name">{image.name}</p>
+                </div>
+              ))
+            )}
+          </div>
+        ) : (
+          <p>No hay jefes disponibles en esta categoría.</p>
+        )}
       </div>
     </div>
   );

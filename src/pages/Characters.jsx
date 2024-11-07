@@ -30,7 +30,7 @@ const Characters = () => {
   };
 
   return (
-    <div className="container">
+    <div className={`char-container ${isTainted ? "char-container-3" : "char-container-2"}`}>
       <h2>Characters</h2>
       <button onClick={toggleTainted}>
         {isTainted ? "Mostrar Characters" : "Mostrar Tainted"}
@@ -46,5 +46,4 @@ const Characters = () => {
     </div>
   );
 };
-
 export default Characters;

@@ -1,41 +1,48 @@
-.container {
-  width: 70vw;
-  max-width: 80vw;
-  height: 120vh;
-  background-image: url('/public/images/unnamed.png');
-  background-size: 100% 100%;
-  background-position: center;
+.char-container {
+  width: 55%;
+  max-width: 65vw;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  padding: 5vw;
+  align-items: center;
+  padding: 11vh 5vw 5vh 5vw; 
   overflow-y: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  aspect-ratio: 1 / 1; 
+}
+
+.char-container-2 {
+  background-image: url('/public/images/unnamed (2).png');
+}
+
+.char-container-3 {
+  background-image: url('/public/images/unnamed (3).png');
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centra los elementos */
-  gap: 20px; /* Espaciado entre las tarjetas */
-  padding: 20px; /* Espacio alrededor de la galería */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
 .character-card {
-  border: 2px solid #ccc; /* Bordes de la tarjeta */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 10px; /* Espaciado interno */
-  text-align: center; /* Centra el texto */
-  cursor: pointer; /* Cambia el cursor al pasar el mouse */
-  max-width: 150px; /* Ancho máximo de cada tarjeta */
-  transition: transform 0.2s; /* Transición suave al hacer hover */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 150px;
+  transition: transform 0.2s;
 }
 
 .character-card:hover {
-  transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+  transform: scale(1.05);
 }
 
 .character-card img {
-  width: 100%; /* Hace que la imagen ocupe el 100% del ancho de la tarjeta */
-  border-radius: 5px; /* Bordes redondeados de la imagen */
+  width: 100%;
+  border-radius: 5px;
 }

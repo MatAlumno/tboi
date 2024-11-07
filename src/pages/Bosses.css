@@ -1,23 +1,20 @@
-.container {
-  width: 70vw;
-  max-width: 80vw;
-  height: 120vh;
-  background-image: url('/public/images/unnamed.png');
+.bosses-container {
+  width: 85vw;
+  max-width: 90vw;
+  height: 75vh;
+  max-height: 85vh;
+  background-image: url('/public/images/bestiarymenu.png');
   background-size: 100% 100%;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   padding: 5vw;
   overflow-y: auto;
-  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin: auto; /* Centrado horizontal y vertical si está dentro de un contenedor */
 }
 
-.bosses-container {
-  display: flex; /* Mantenemos el flex para categorías y galería */
-  width: 100vw; /* Ancho completo */
-  height: 100vh; /* Altura completa */
-}
 
 .categories {
   width: 30%; /* Ocupa el 30% del contenedor */

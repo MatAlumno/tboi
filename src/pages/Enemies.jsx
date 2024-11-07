@@ -25,7 +25,7 @@ const EnemiesGallery = () => {
   );
 
   return (
-    <div className="container">
+    <div>
       <div className="enemies-container">
         <div className="gallery">
           <input
