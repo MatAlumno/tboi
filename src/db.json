@@ -13811,5 +13811,544 @@
       "The Beast": "ERROR",
       "Mega Satan": "ERROR"
     }
-  }
+  },
+  "Rooms": [
+    {
+        "clasificacion": "Closets",
+        "descripcion": "Closets are rare, small, dead end Normal Rooms. They will often contain a unique arrangement of items, objects, or pickups.",
+        "imagenes": []
+    },
+    {
+        "clasificacion": "Boss Rooms",
+        "descripcion": " Boss Rooms contain one of the manyBosses, with victory granting Isaac an item from theBoss pool,hearts(depending on difficulty), and a trap door leading to the next level. It always spawns in the room that's as far from the starting room as possible. Mini-Boss Rooms are identical in appearance to normal Rooms and contain one of theSeven Deadly Sins.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Bossroom.png/revision/latest?cb=20210821090006"
+        ]
+    },
+    {
+        "clasificacion": "Treasure Rooms",
+        "descripcion": "A Treasure Room, or Item Room, is guaranteed to appear on all floors fromBasement1 toDepths2. From Basement 2 and on, this Room requires akeyto enter. The Room contains one item from theTreasure Room item pool. Variousobstaclesmay be present, and occasionallyFliesorGreed Gapers/Bulbswill be present. This Room has a small chance to contain two items from the treasure pool that can both be collected, and averysmall chance of containing no item pedestal at all, instead containing one poop pile, 3Attack Flies, and variouspickups, including onetrinket. OnDownpour/Dross,Mines/Ashpit, andMausoleum/Gehenna, Treasure Rooms will always contain at least two items, with one of them being hidden, similar toCurse of the Blind. Golden Treasure Rooms always require one key to open inGreed Mode. Golden Treasure Rooms can generate in theWomb/Uteroif theBloody Crowntrinket is equipped when the floor is generated. Golden Treasure Rooms can generate inSheolwith theWicked Crowntrinket equipped, and can generate in theCathedralwith theHoly Crowntrinket equipped.  Silver Treasure Rooms are Rooms found inGreed Mode. They always contain one item from theGreed \"Boss\" Item Pool, and require no keys to open, being open from the start of the floor. Appears inGreedier Modeas well, acting exactly the same way. When carrying theDevil's Crowntrinket, any newly found or not walked into Treasure Room becomes a Red Treasure Room, which contain items from the Devil Room pool for the price of heart containers. The prices are the same as normally required in regularDevil Deals.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Silver_Treasure_Room_opened.png/revision/latest?cb=20210826043359",
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2e/Devil_Treasure_Room_door_locked.png/revision/latest?cb=20210824124801"
+        ]
+    },
+    {
+        "clasificacion": "Planetariums",
+        "descripcion": "Planetariums are similar to Treasure Rooms, but only contain one powerful celestial item belonging to thePlanetarium (Item Pool), items exclusive to Planetarium Rooms. Planetariums have an additive and higher chance of spawning if the player avoids walking into Treasure Rooms.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bd/Planetarium_door_locked.png/revision/latest?cb=20210826035811"
+        ]
+    },
+    {
+        "clasificacion": "Shops",
+        "descripcion": " Shops require a key to open. They sell various items and pickups in exchange for coins. Shops start at level 0 and only sell 2 things, but Shops at higher levels sell more things. They can be upgraded through theDonation Machine, which can be commonly found in the Shops and sometimes in anArcade.Shops also have a chance of being replaced by a miniboss Room containingGreedorSuper Greed. Shops can generate in theWomb/Uteroif theSilver Dollartrinket is equipped when the floor is generated. The Shop spawned on the first floor is free to enter. Shops can generate inSheolwith theWicked Crowntrinket equipped, and can generate in theCathedralwith theHoly Crowntrinket equipped. Has a new Door, no longer sharing a Door with Libraries.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Donation_Machine.png/revision/latest/scale-to-width-down/20?cb=20210821074535"
+        ]
+    },
+    {
+        "clasificacion": "Arcades",
+        "descripcion": " These Rooms are locked and require one coin to be opened. Arcades can only spawn on even floors (Basement II, Caves II, Depths II, Womb II, etc) if the previous floor was completed with 5 or more coins.Arcadescan containmachines,beggars, and other objects. Arcades will spawn on the first floor of the alternate chapters (DownpourI,MinesI,MausoleumI,CorpseI).",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/Arcade_Door.png/revision/latest?cb=20210821090834"
+        ]
+    },
+    {
+        "clasificacion": "Challenge Rooms",
+        "descripcion": " Challenge Rooms will only generate if Isaac has full health upon entering the first floor of aChapter. Challenge Rooms can only be entered if Isaac's total health (red, black, and soul hearts) is equal to or greater than his number of heart containers. Upon picking up its contents, Isaac has to fight three waves of enemies.  Boss Challenge Rooms will only generate if Isaac has full health upon entering the second floor of aChapter. They also can only be entered if Isaac has one or less red heart. Its contents are similar to the Normal Challenge Room, but upon picking up its contents, Isaac has to fight two waves ofBossesinstead of normal monsters. Boss Challenge Rooms now can only be entered normally if Isaac's total health (red, black, and soul hearts) is equal to or less than 1 full heart, but now always contain an item fromthe Boss Item Pool.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Challenge_Room.png/revision/latest?cb=20210821091248",
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/33/Boss_Challenge_Room_Door.png/revision/latest?cb=20210821091450"
+        ]
+    },
+    {
+        "clasificacion": "Curse Rooms",
+        "descripcion": " Curse Rooms are special rooms with spikes on the door that hurt Isaac when entering and exiting the Room. Curse Rooms can contain various things, ranging from enemies, red chests, to even pedestalitemsfrom theCurse Room Item Pool. However, Isaac doesn't take damage upon entering the room if he hasflight(still takes damage upon exiting).",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Curse_Room_Door.png/revision/latest?cb=20210821090810"
+        ]
+    },
+    {
+        "clasificacion": "Sacrifice Rooms",
+        "descripcion": " Sacrifice Rooms are special rooms that have a chance to spawn aChestor other preset rewards after Isaac damages himself on the spikes featured at the center of the Room. Sacrifice Rooms have a higher chance to spawn if Isaac has more health to sacrifice (if Isaac's total health (red, black, and soul hearts) is equal to or greater than his number of heart containers). Sacrifice Rooms now can pay with a much wider variety of rewards. Has a new bloody door, replacing its old, generic one.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b3/Chest.png/revision/latest/scale-to-width-down/20?cb=20210821091012"
+        ]
+    },
+    {
+        "clasificacion": "Secret Rooms",
+        "descripcion": " Secret Rooms must be bombed into, and are usually surrounded by 3 or 4 Rooms. Secret Rooms usually containShopkeepersand variouspickups.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Secret_Room_Door.png/revision/latest?cb=20210825021359"
+        ]
+    },
+    {
+        "clasificacion": "Super Secret Rooms",
+        "descripcion": " Super Secret Rooms must be bombed into, and are only located next to one other non-special Room. They tend to spawn closer to the Boss Room. Super Secret Rooms can contain a variety ofpickups.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Secret_Room_Door.png/revision/latest?cb=20210825021359"
+        ]
+    },
+    {
+        "clasificacion": "Ultra Secret Rooms",
+        "descripcion": " Ultra Secret Rooms are very secret rooms, found when venturing one Red Room outside the normal map using theRed Key,Crystal Key,Cracked Key,Soul of Cain, or by teleporting to it withXVIII - The Moon?. These map-expanding items allow you to create Red Rooms, and if correctly found, one of those new Red Rooms will have a Secret Room passageway to the Ultra Secret Room already opened. The Ultra Secret Room itself containsKeys,key blocks, and/orShopkeepers, and one item from theUltra Secret Room item poolfor its pedestal rewards.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Secret_Room_Door.png/revision/latest?cb=20210825021359"
+        ]
+    },
+    {
+        "clasificacion": "Libraries",
+        "descripcion": " Libraries require a key to be entered and can containbook items,cards,runes, andtrinkets. Has a new Door, no longer sharing a door with Shops.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Library_door_locked.png/revision/latest?cb=20210824124620"
+        ]
+    },
+    {
+        "clasificacion": "Devil Rooms",
+        "descripcion": " These Rooms allow the player to make deals with theDevilby tradinghealthforitems. Devil Rooms can also containRed Chests,Black Hearts,spikes, ormonstersalong with its signature devil statue. They may also haveFire PlacesorRed Fire Placeswhich have a chance to dropCoins,Red Hearts, and more when extinguished. Devil Roomshave a chance to containKrampusrather than any items, if Krampus is unlocked.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/88/Devil_Room.png/revision/latest?cb=20210821090948"
+        ]
+    },
+    {
+        "clasificacion": "Angel Rooms",
+        "descripcion": " Angel Rooms contain an angel statue and one or moreitemsto choose from,Soul Hearts, orEternal Hearts. The Angel Room has a chance to replace the Devil Room if certain conditions are met. They may also haveBlue Fire PlacesorPurple Fire Places, which have a chance to dropSoul Heartswhen extinguished. Can now have aConfessionalin them.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Angel_Room.png/revision/latest?cb=20210821092309"
+        ]
+    },
+    {
+        "clasificacion": "Vaults",
+        "descripcion": " Vaults require two keys to open and can contain various things, ranging fromitemstoDonation Machines.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d2/Vault_door_locked.png/revision/latest?cb=20210826035931"
+        ]
+    },
+    {
+        "clasificacion": "Dice Rooms",
+        "descripcion": " Dice Rooms require two keys to open. Depending on the number of pips imprinted on the face of the large red die embedded in the floor, stepping onto the center of the die activates aneffect.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Dice_Room_door_locked.png/revision/latest?cb=20210824124700"
+        ]
+    },
+    {
+        "clasificacion": "Clean BedroomsandDirty Bedrooms",
+        "descripcion": " Bedrooms require two bombs to open. Bedrooms contain a bed that can be used once to restore all of the player's health, or if they have no red hearts, they give you 3 soul heartsand add one charge to their active item. Depending on if the Bedroom is Clean or Dirty (the main difference being the state of the bed and wall color), bombing the center of the carpet will reveal acrawl space(Clean) or a trapdoor (Dirty) leading to the next floor.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Double_Boarded_Room.png/revision/latest?cb=20210821091425"
+        ]
+    },
+    {
+        "clasificacion": "Crawl Spaces",
+        "descripcion": " These Rooms are entered through Trapdoors with ladders in them. They can rarely be found under destroyed rocks. They can also be found usingWe Need To Go Deeper!,Rune of Ehwaz, or under aClean Bedroom'srug. These Rooms are viewed from the side, rather than the top like the rest of the Rooms in the game. Crawl Spaces usually contain an item or variouspickups. Rarely, the Crawl Space will lead to aBlack Market. Black markets are accessed through Rare Crawl Spaces. These Rooms are 2 Rooms wide and haveshop itemsthat can all be bought for 1 heart container, likedevil deals. Black Markets also have a trapdoor to the next floor and variousmachinesorbeggars.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8c/Secret_Trap_Door.png/revision/latest?cb=20210825053404"
+        ]
+    },
+    {
+        "clasificacion": "Angel Room Shops",
+        "descripcion": "Angel Room Shops are special holy shops, accessed if Isaac hasThe Stairway. The Stairway will spawn a ladder in the starting room of each floor that leads to each floor's Angel Room shop, aShopthat sellsAngel deal items, has angel-related pickups, sometimes includes a coinbeggaror aConfessional, and always includes an angel statue. This ladder disappears upon leaving the room.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e9/Collectible_The_Stairway_icon.png/revision/latest/scale-to-width-down/20?cb=20210824095617"
+        ]
+    },
+    {
+        "clasificacion": "Secret Shops",
+        "descripcion": " Secret shops are accessed by buying aMember Card, opening up a 'special' Shop Trapdoor that leads to the floor's underground shop. Secret shops have a wider variety of items and pickups, sold at various expensive prices.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0d/Secret_Shop_Trapdoor.png/revision/latest?cb=20210826043339"
+        ]
+    },
+    {
+        "clasificacion": "Red Rooms",
+        "descripcion": "Red Rooms are special rooms created when using theRed Key(and Red Key wisps spawned withBook of Virtues),Crystal Key,Cracked Key, or theSoul of Cain. The Red Key Rooms don't open without these items, and are spawned into existence at the closest red outline door when the item is used. The new Red Room can be a normal Room on this floor, or any special Room, aside from extra Ultra Secret Rooms and Boss Rooms. Red Rooms can't spawn where there aren't 4 connections out of the Room, not spawning if a touching room contains a bottomless pit on one wall, already is a secret room, or is a thin closet/hallway room. While inside a Red Room, the music of the floor will be slightly distorted. Red rooms can only be spawned in an 13x13 radius from the the center room of the map, or six rooms from the center room in any direction; any farther will lead to entering an I AM ERROR Room.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Red_Room_Door_outline.png/revision/latest?cb=20210826043259"
+        ]
+    },
+    {
+        "clasificacion": "I AM ERRORRooms",
+        "descripcion": "I AM ERROR Rooms have a small chance of being reached upon usingTelepills, and can be reached with other items such asUndefinedandRed Key. Every I AM ERROR Room contains a trapdoor to the next floor along with variouspickupsoritems. The only way out of an I AM ERROR Room is through the trapdoor or by teleporting out. UsingTeleport 2.0when all other rooms have been explored guarantees to be teleported in an I AM ERROR room. The I AM ERROR Room is a running gag within games that is a reference to the \"I AM ERROR\" easter egg in Zelda II: The Adventure of Link (1987)",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2e/Collectible_Undefined_icon.png/revision/latest/scale-to-width-down/20?cb=20221115212719"
+        ]
+    },
+    {
+        "clasificacion": "Boss Rush",
+        "descripcion": " If the player manages to beatMomin under 20 minutes from the start of the run (visually indicated by the clock icon that appears during the cutscene between floors), a crack will open in the wall of the Boss Room upon defeating her, allowing entry to a large Room with 2 or 4 item pedestals in the center or the corners, often blocked byrocksorspikes. Taking one of the presented items will destroy the others and begin the Boss Rush.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/16/Boss_Rush_Door.png/revision/latest?cb=20210821142210"
+        ]
+    },
+    {
+        "clasificacion": "Mega Satan Arena",
+        "descripcion": " This long Room is only found in the starting Room ofChestandDark Room. Opening this door requires an item such asDad's Keyor the two key pieces fromAngels. Once the Room is entered, Isaac will have to face off againstMega Satan.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/14/Mega_Satan_Door.png/revision/latest?cb=20210821142237"
+        ]
+    },
+    {
+        "clasificacion": "??? Entrance",
+        "descripcion": " If the player manages to beatMom's HeartorIt Livesin under 30 minutes (visually indicated by the clock icon that appears during the cutscene between floors), a crack will open in the wall of the Boss Room upon defeating it, containing a room with a Trapdoor to???.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Blue_Womb_Door.png/revision/latest?cb=20210822103621"
+        ]
+    },
+    {
+        "clasificacion": "Mother Arena",
+        "descripcion": " Mother's arena is accessible by a large pit in the ground in the Boss Room ofCorpseII. Dropping down into the pit leads to Mother's unique transforming boss room.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7a/Mother_Trapdoor.png/revision/latest/scale-to-width-down/98?cb=20210824150732"
+        ]
+    },
+    {
+        "clasificacion": "Greed Exit Rooms",
+        "descripcion": " Exit Rooms are Rooms with the defining feature of having a Trapdoor/exit to the next Floor. Greed Exit Rooms start metal barred and unbombable, like miniboss rooms, but will be unbarred and accessible once ten waves of enemies are defeated. Exit Rooms may contain pickups, chests, and enemies. Greedier Exit Rooms are almost exactly the same as the Greed Mode Exit Room, except they take 11 rounds to open.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b3/Greed_Exit_Door_opened.png/revision/latest?cb=20210824150752"
+        ]
+    },
+    {
+        "clasificacion": "Alternate Path Exit Rooms",
+        "descripcion": "When unlocked, these Rooms appear attached to a Main Path Boss Room once theBossis defeated (or appear at the end of Alternate PathChapter). These Rooms contain an entrance to the Alternate Path Floors. These Rooms have different requirements to open them, based on theChapterthey are barring entrance to:  When unlocked, this room appears above the starting room of the second floor of Chapter 3, containing a trapdoor leading to a special version of the second floor of Chapter 3.5. This door can only be opened by obtaining and sacrificing eitherThe Polaroid,The Negative, orFaded Polaroid.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Downpour_entrance_door.png/revision/latest?cb=20210824125123",
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/Mines_entrance_door.png/revision/latest?cb=20210824125043",
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/76/Mausoleum_entrance_door.png/revision/latest?cb=20210824124943"
+        ]
+    },
+    {
+        "clasificacion": "A Strange Door Exit Room",
+        "descripcion": "When unlocked, this room appears above the starting room of the second floor of Chapter 3, containing a trapdoor leading to a special version of the second floor of Chapter 3.5. This door can only be opened by obtaining and sacrificing either The Polaroid, The Negative, or (except in Rebirth)Faded Polaroid",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ef/A_Strange_Door_locked.png/revision/latest?cb=20210824150812"
+        ]
+    },
+    {
+        "clasificacion": "Grave Rooms",
+        "descripcion": "Grave Rooms are Rooms that appear in theDark Roomwhich only contain 1-3Dirt Patches.The Forgottenis unlocked by reaching this room and digging withMom's Shovel.",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/df/Dirt_Patch.png/revision/latest?cb=20180505191637"
+        ]
+    },
+    {
+        "clasificacion": "Mirror Room",
+        "descripcion": " The Mirror Room is a single special room found on the second floor of Chapter 1.5, containing a single mirror on either the left or right doorway location. This mirror can be broken by explosions, but also can be entered to explore theMirrored World, a replica of the current floor, to findKnife Piece 1. The mirror can only be entered byThe Lost,Tainted Lost,Tainted Forgotten, andTainted Jacob's ghost form. All other characters must touch the white fire which always generates on the second floor of Chapter 1.5 in order to temporarily become The Lost if they want to enter the mirror. ",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Mirror_Door.png/revision/latest?cb=20210824150832"
+        ]
+    },
+    {
+        "clasificacion": "Mine Cart Room",
+        "descripcion": "The Mine Cart Room is a single special room found on the second floor of Chapter 2.5 only if Isaac already hasKnife Piece 1. It contains a Yellow Button, a single minecart, a blocked door at the top of the room and occasionally some enemies. There are 2 other Yellow Buttons located randomly on the same floor and pressing all 3 repairs the minecart's track allowing access through the blocked door. Alternatively havingFlightand 2 bombs also allows access through the door. The area past the blocked door containsKnife Piece 2and a chase sequence withMother's Shadow. The door is permanently blocked after leaving the sub-area. ",
+        "imagenes": [
+            "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Mineshaft_Door_locked.png/revision/latest?cb=20210824150852"
+        ]
+    }
+  ],
+  "Pickups": [
+    {
+        "game_version": "The Binding of Isaac",
+        "items": [
+            {
+                "name": "Heart(Corazón)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/c/cb/Full_heart.png/revision/latest/scale-to-width-down/44?cb=20130718031314&path-prefix=es",
+                "Descripción": "Más comúnmente conocidos comocorazones rojos(para diferenciarlos de los otros tipos de corazones), estos son unos de los objetos más frecuentes de encontrar y la principal fuente de vida para la mayoría de personajes. Restaura 2 puntos de vida (un contenedor de corazón entero) si hay un hueco para estos. Debido a la mecánica deThe Keeper, se convertirá en dos moscas azules cada uno si apareces.",
+                "ID": "5.10.1"
+            },
+            {
+                "name": "Half Heart(Medio Corazón)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/9/92/Half_heart.png/revision/latest/scale-to-width-down/44?cb=20131130164931&path-prefix=es",
+                "Descripción": "Restaura 1 punto de vida (medio contenedor de corazón). Se convierte en una mosca azul si se esKeeper.",
+                "ID": "5.10.2"
+            },
+            {
+                "name": "Soul Heart(Corazón de Alma)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/d/da/Soul_heart.png/revision/latest/scale-to-width-down/44?cb=20131130164944&path-prefix=es",
+                "Descripción": "Los corazones de alma son corazones más especiales que pueden ser recogidos aunque se tengan los contenedores de vida llenos, aumentando la salud más de lo normal. No solo eso, sino que no activan la reducción de posibilidad de hacer pacto. Ellos no cuentan como contenedores de corazones. A partir deRebirth,se puede tener una barra de vida solamente conformada por estos, mientras que eljuego originalse muere si no se tiene ningún contenedor de corazones rojos.???yThe Soulúnicamente usan este tipo de corazón como vida.",
+                "ID": "5.10.3"
+            },
+            {
+                "name": "Key(Llave)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/9/9a/Recolectable_Key.png/revision/latest/scale-to-width-down/30?cb=20190612185803&path-prefix=es",
+                "Descripción": "Las llaves son recolectables muy comunes. Esta llave ordinaria aumenta el contador de llaves por 1. Funcionan para abrir puertas cerradas, cofres dorados y bloques con candado.",
+                "ID": "5.30.1"
+            },
+            {
+                "name": "Penny(Centavo)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/75/Recolectable_Penny.png/revision/latest/scale-to-width-down/44?cb=20190612190356&path-prefix=es",
+                "Descripción": "Los centavos son el dinero que se usa en el juego. Esta simple moneda aumenta el contador por 1. Estos pueden ser usados para comprar en la tienda, usarlos en las máquinas que requieren dinero como la tragaperras o la máquina adivinadora, o dárselos a los mendigos que pueden dar más objetos a cambio. También los centavos puede servir para curar aKeeperya que su vida depende de monedas.",
+                "ID": "5.20.1"
+            },
+            {
+                "name": "Nickel(Níquel)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/e/e6/Recolectable_Nickel.png/revision/latest/scale-to-width-down/44?cb=20190612190454&path-prefix=es",
+                "Descripción": "Los níqueles al igual que los centavos otorgan dinero, pero estos valen 5 centavos. Pueden remplazar a los centavos normales con suerte.",
+                "ID": "5.20.2"
+            },
+            {
+                "name": "Bomb(Bomba)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/e/e9/Recolectable_Bomb.png/revision/latest/scale-to-width-down/44?cb=20190612190901&path-prefix=es",
+                "Descripción": "Las bombas son objetos que pueden ser usados pulsando E. Estas explotan en un radio grande, dañando todo (incluyendo al jugador) y destruyendo rocas, máquinas, cuidadores de tiendas y entradas a habitaciones secretas o puertas cerradas. Las bombas pueden servir bien como método de ataque, más especialmente si se tiene objetos que den a las bombas más efectos comoSad BombsoMr. Mega.",
+                "ID": "5.40.1"
+            },
+            {
+                "name": "Double Bomb(Doble Bomba)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/4/49/Recolectable_Double_Bomb.png/revision/latest/scale-to-width-down/56?cb=20190612191005&path-prefix=es",
+                "Descripción": "Son bombas que añaden dos bombas en vez de una sola. Pueden remplazar a las bombas normales con suerte.BOGO Bombsremplaza todas las bombas normales por este tipo de bombas. TambiénHumbling Bundlehace aparecer estas bombas en vez de las normales.",
+                "ID": "5.40.2"
+            },
+            {
+                "name": "Troll Bomb(Bomba Trol)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/a/a4/Troll_bomb.png/revision/latest/scale-to-width-down/44?cb=20130718031035&path-prefix=es",
+                "Descripción": "Las bombas troles son bombas que no pueden ser recogidas pero pueden remplazar a las bombas normales. Las troll bombs ya aparecen activadas y terminan explotando por si solas. Si el jugador está cerca de una, esta intentará explotar más rápido para dañar al jugador. Si se tiene el trinketSafety Scissorsestas se convertiran en bombas normales antes de estallar.",
+                "ID": "4.3"
+            },
+            {
+                "name": "Cards(Cartas)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/b/b6/Recolectable_Card.png/revision/latest/scale-to-width-down/44?cb=20190612193009&path-prefix=es",
+                "Descripción": "Las cartas son recolectables que se pueden guardar. Solamente se puede guardar una carta (o píldora) o dos si se tieneDeep PocketsoStarter Deck. Se pueden usar pulsando Q y cada una posee un efecto único. Las runas cuentan como cartas.",
+                "ID": "5.300"
+            },
+            {
+                "name": "Pills(Píldoras)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/c/cd/Recolectable_Pill.png/revision/latest/scale-to-width-down/44?cb=20190612193041&path-prefix=es",
+                "Descripción": "Las píldoras son iguales que las cartas, objetos que se pueden reservar en un espacio exclusivo para ambos y ser usados al pulsar Q. La diferencia entre píldoras y cartas es que las píldoras no muestran que efectos tienen hasta ser usadas por primera vez (a menos que se tengaPHD). Las píldoras nunca son iguales; cambian de efectos y apariencias al iniciar otra partida (las cuales depende de la semilla).",
+                "ID": "5.70"
+            }
+        ]
+    },
+    {
+        "game_version": "Wrath of the Lamb",
+        "items": [
+            {
+                "name": "Eternal Heart(Corazón Eterno)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/9/98/Eternal.png/revision/latest/scale-to-width-down/44?cb=20140111195315&path-prefix=es",
+                "Descripción": "Los corazones eternos son corazones que al ser recogidos se añadirán al primer contenedor o al último corazón de alma (si no se tiene contenedores). Estos pueden ser dañados, desapareciendo. Pero si no desaparecen y se pasa al siguiente piso, se transformará en un contenedor de corazones (o un corazón de alma si se es???oThe Soul). También si se recoge otro corazón eterno mientras se tiene uno ya, directamente hará aparecer el nuevo corazón. Pese a sertécnicamentemedio corazón eterno, se le llama corazón eterno.",
+                "ID": "5.10.4"
+            },
+            {
+                "name": "Golden Key(Llave Dorada)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/1/14/Recolectable_Golden_Key.png/revision/latest/scale-to-width-down/44?cb=20190612190141&path-prefix=es",
+                "Descripción": "Si se consigue, el icono de la llave plateada cambiará por una dorada. Mientras se tenga esta, todo lo que requiera llave será abierto si gastar ninguna, ahorrando. Tu llave dorada desaparecerá al pasar al siguiente piso.",
+                "ID": "5.30.2"
+            },
+            {
+                "name": "Dime(Dime;10 Centavos)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/e/ec/Recolectable_Dime.png/revision/latest/scale-to-width-down/44?cb=20190612190604&path-prefix=es",
+                "Descripción": "Los dimes valen 10 centavos y son más raros de hacer aparecer. Siendo la moneda con más valor, puede remplazar al centavo normal con mucha suerte.",
+                "ID": "5.20.3"
+            },
+            {
+                "name": "Megatroll Bomb(Bomba Megatrol)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/5/55/Super_Troll_Bomb.png/revision/latest/scale-to-width-down/54?cb=20140111195430&path-prefix=es",
+                "Descripción": "Al igual que las bombas troles normales, las bombas megatroles intentarán explotar tan rápido como puedas tras aparecer. Pero son más difíciles de esquivar debido que estas bombas intentarán acercarse al jugador (al menos de que él esté demasiado lejos). También intentarán explotar rápido si están lo suficientemente cerca del jugador. Estas son afectadas por el trinketSafety Scissors.",
+                "ID": "4.4"
+            },
+            {
+                "name": "Trinkets(Baratijas)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/5/57/Recolectable_Trinket.png/revision/latest/scale-to-width-down/44?cb=20190612193130&path-prefix=es",
+                "Descripción": "Las baratijas son objetos que pueden ser recogidos y se guardarán en un espacio exclusivo para ellas. Estas siempre otorgan un efecto pasivo. Se pueden llevar dos a la vez conBelly Buttono se puede absorber el efecto de esta y la propia baratija conSmelter, lapíldora Gulp!oMarblespara ahorrar espacio.",
+                "ID": "5.350"
+            }
+        ]
+    },
+    {
+        "game_version": "Rebirth",
+        "items": [
+            {
+                "name": "Double Heart(Doble Corazón)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Double_Heart.png/revision/latest?cb=20180503145854",
+                "Descripción": "Al igual que las bombas dobles, los corazones dobles recuperan dos corazones (4 puntos de vida, dos contenedores de corazones enteros) en vez de uno solo. Poca veces aparecen. ConHumbling Bundle, estos remplazan a los corazones normales.",
+                "ID": "5.10.5"
+            },
+            {
+                "name": "Black Heart(Corazón Negro)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/46/Black_Heart.png/revision/latest?cb=20210821090118",
+                "Descripción": "Estos corazones son considerados por el juego como corazones de alma. La diferencia es que los corazones negros al desaparecer activan un efecto similar a deThe Necronomicon, haciendo daño masivo en toda la habitación. Al ser considerados como corazones de alma, estos no afectan la posibilidad de obtener una sala de pacto.",
+                "ID": "5.10.6"
+            },
+            {
+                "name": "Key Ring(Llavero)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/7/72/Recolectable_Key_Ring.png/revision/latest/scale-to-width-down/44?cb=20190612185838&path-prefix=es",
+                "Descripción": "Igual que las bombas dobles y los corazones dobles, los llaveros son la versión doble de su contraparte normal, dando dos llaves en vez de una sola. Capaz de remplazar a la llave normal. Remplazan a estas si se tieneHumbling Bundle.",
+                "ID": "5.30.3"
+            },
+            {
+                "name": "Double Penny(Doble Centavo)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/0/08/Recolectable_Double_Penny.png/revision/latest/scale-to-width-down/54?cb=20190612190803&path-prefix=es",
+                "Descripción": "La variación doble del centavo. Vale 2 monedas en vez de una sola. Remplaza al centavo normal en alguna ocasiones o siempre si se tieneHumbling Bundle.",
+                "ID": "5.20.4"
+            },
+            {
+                "name": "Grab Bag(Bolsa de Mano)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/c/c4/Recolectable_Grab_Bag.png/revision/latest/scale-to-width-down/44?cb=20190612193208&path-prefix=es",
+                "Descripción": "Estas son bolsas que al ser tocadas revelarán más recolectables. Puede haber objetos que hagan aparecerlas más seguido o que mejoren sus recompensas comoSack Head.",
+                "ID": "5.69.1"
+            },
+            {
+                "name": "Lil' Battery(Batería Pequeña)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/1/19/Recolectable_Lil%27_Battery.png/revision/latest/scale-to-width-down/44?cb=20190612191106&path-prefix=es",
+                "Descripción": "Las baterías otorgan energía para los coleccionables activables. Siempre llenan la barra, excepto si la barra necesita 12, solamente llenando 6 unidades.",
+                "ID": "5.90.1"
+            }
+        ]
+    },
+    {
+        "game_version": "Afterbirth",
+        "items": [
+            {
+                "name": "Gold Heart(Corazón de Oro)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Gold_Heart.png/revision/latest?cb=20210821162800",
+                "Descripción": "Los corazones de oro son corazones que no otorgan vida realmente. Estos se añaden al último corazón (de izquierda a derecha) que se tenga, añadiéndole un contorno dorado. Vaciar el contenedor donde estaba el corazón de oro hará aparecer muchas monedas.",
+                "Método de desbloqueo": "Completa el desafío #21 (XXXXXXXXL).",
+                "ID": "5.10.7"
+            },
+            {
+                "name": "Golden Bomb(Bomba Dorada)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/1/15/Recolectable_Golden_Bomb.png/revision/latest/scale-to-width-down/44?cb=20190612191040&path-prefix=es",
+                "Descripción": "Las bombas doradas funcionan igual que las llaves doradas, otorgan un número ilimitado de bombas hasta pasar al siguiente piso.",
+                "Método de desbloqueo": "Completa el desafío #23 (Blue Bomber).",
+                "ID": "5.40.4"
+            },
+            {
+                "name": "Lucky Penny(Centavo Suertudo)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/9/92/Recolectable_Lucky_Penny.png/revision/latest/scale-to-width-down/44?cb=20190612190832&path-prefix=es",
+                "Descripción": "Los centavos suertudos son centavos que se ven iguales a los centavos normales, pero no solamente añaden un centavo al contador, también aumentan la suerte al ser recogidos. Estos centavos no pueden ser convertidos en centavos dobles porHumbling Bundle, haciéndolos más fáciles de diferenciar. Desde el Booster Pack #5 deAfterbirth+, los centavos son diferentes a los centavos normales; los suertudos teniendo un brillo más verde en su animación.",
+                "Método de desbloqueo": "Dona un centavo a lamáquina de la codicia.",
+                "ID": "5.20.5"
+            },
+            {
+                "name": "Sticky Nickel(Níquel Pegajoso)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/e/e6/Recolectable_Nickel.png/revision/latest/scale-to-width-down/44?cb=20190612190454&path-prefix=es",
+                "Descripción": "Estos aparecen como los niqueles normales, pero si se intenta recolectar, no se podrá ya que están pegados al piso. La única forma de conseguirlos es si estos reciben una explosión antes, así logrando despegarlos del suelo.",
+                "Método de desbloqueo": "Completa laBoss RushconKeeper.",
+                "ID": "5.20.6"
+            }
+        ]
+    },
+    {
+        "game_version": "Afterbirth+",
+        "items": [
+            {
+                "name": "Half Soul Heart(Medio Corazón de Alma)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/80/Half_Soul_Heart.png/revision/latest?cb=20210822021906",
+                "Descripción": "Los medios corazones de alma añaden medio corazón en vez de uno solo. Son pocos comunes a diferencia que su versión normal.",
+                "Método de desbloqueo": "",
+                "ID": "5.10.8"
+            },
+            {
+                "name": "Scared Heart(Corazón Asustado)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Red_Heart.png/revision/latest?cb=20210825013100",
+                "Descripción": "Igual a los corazones normales en apariencia y cantidad que recupera, los corazones asustados son corazones más difíciles de conseguir debido a que intentarán escapar del jugador. Cuando se intenta tocar, se alejarán. Se pueden terminar recogiendo uno si se encierra en una esquina. Difícil de notarlo, pero en realidad los corazones asustados laten más rápido que cualquier otro corazón.",
+                "Método de desbloqueo": "Reinicia 7 veces la partida usando Cntrl+R.",
+                "ID": "5.10.9"
+            },
+            {
+                "name": "Blended Heart(Corazón Mezclado)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/36/Blended_Heart.png/revision/latest?cb=20210822021931",
+                "Descripción": "Los corazones mezclados harán un efecto diferente dependiendo de la salud del jugador. Estos curan un contenedor de corazones si falta o se añaden un corazón de alma si ya se tiene todos los contenedores llenos.",
+                "Método de desbloqueo": "",
+                "ID": "5.10.10"
+            },
+            {
+                "name": "Bone Heart(Corazón de Hueso)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d4/Bone_Heart.png/revision/latest?cb=20210822091832",
+                "Descripción": "Los corazones huesos fueron añadidos en el Booster Pack #5 junto conThe Forgotten. Estos corazones pueden ser recogidos como los de alma, añadiendo estos corazones aparte de los contenedores. Estos pueden ser llenados por corazones rojos, pudiendo resistir al menos 3 puntos de vida y pueden ser destruidos al igual que los corazones de alma.",
+                "Método de desbloqueo": "Desbloquea a The Forgotten",
+                "ID": "5.10.11"
+            },
+            {
+                "name": "Charged Key(Llave Cargada)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/0/07/Recolectable_Charged_Key.png/revision/latest/scale-to-width-down/31?cb=20190612190254&path-prefix=es",
+                "Descripción": "Las llaves cargadas no solamente añaden una llave sino que también añaden energía a tu coleccionable activable como si fueran una batería.",
+                "Método de desbloqueo": "Completa el desafíoPokey mans.",
+                "ID": "5.30.4"
+            }
+        ]
+    },
+    {
+        "game_version": "Repentance",
+        "items": [
+            {
+                "name": "Rotten Heart(Corazón Podrido)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/83/Rotten_Heart.png/revision/latest?cb=20210825163309",
+                "Descripción": "Los corazones podridos rellenan un contenedor de corazón entero o el corazón rojo que este mas a la derecha si los contenedores del jugador están repletos. Su valor en aguante es equivalente al de medio corazón. Cada corazón podrido en la barra de vida del jugador generara dos moscas al limpiar la sala.",
+                "Método de desbloqueo": "Entrar a Corpse por primera vez",
+                "ID": "5.10.12"
+            },
+            {
+                "name": "Golden Penny(Penique Dorado)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/c/c4/Golden_penny..png/revision/latest/scale-to-width-down/54?cb=20210809155611&path-prefix=es",
+                "Descripción": "Hace aparecer otro penique dorado en un lugar al azar en la misma sala al ser recogido, pero tiene una chance de 5% de desaparecer en su lugar.",
+                "Método de desbloqueo": "Derrota aMega SatancomoTainted Keeper",
+                "ID": "5.20.7"
+            },
+            {
+                "name": "Golden Troll Bomb(Bomba Troll Dorada)'",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/2/2d/Golden_troll_bomb_2.png/revision/latest?cb=20210809161207&path-prefix=es",
+                "Descripción": "De forma similar a las bombas troll, aparece ya encendida y no puede ser recogida. De todas formas, esta explota infinitamente, de forma similar a las bombas doradas recolectable.Safety Scissorsvolvera esta en una bomba dorada recogible antes de explotar.",
+                "Método de desbloqueo": "",
+                "ID": "4.18"
+            },
+            {
+                "name": "Giga Bomb(Bomba Gigante)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/4/49/Giga_bombs_2.png/revision/latest/scale-to-width-down/140?cb=20210809161632&path-prefix=es",
+                "Descripción": "Las bombas gigantes explotan y destruyen el piso en forma de diamante. Hacen 300 de daño a enemigos. Son lanzadas por Bombgaggers, Ultra War y se generan ya encendidas en algunas habitaciones de Ashpit. Pueden ser obtenidas víaSafety ScissorsoEverything Jar.",
+                "Método de desbloqueo": "",
+                "ID": "5.40.7"
+            },
+            {
+                "name": "Horse Pill(Píldora de Caballo)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/0/0e/Horse_pills_2.png/revision/latest?cb=20210809161840&path-prefix=es",
+                "Descripción": "Las píldoras de caballo son versiones gigantes de las píldoras normales con un efecto duplicado, pero aparecen muy raramente. Al usarlas se pueden escuchar efectos de sonido únicos, y las lineas de voz del narrador para las píldoras de caballo son exageradas comparadas con las de las píldoras normales.",
+                "Método de desbloqueo": "Derrota aMega SatancomoTainted Eve",
+                "ID": "5.70.2049"
+            },
+            {
+                "name": "Pill Gold-Gold(Píldora Dorada-Dorada)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/3/36/Pill_gold_2.png/revision/latest?cb=20210809162203&path-prefix=es",
+                "Descripción": "Las píldoras doradas tienen una chance de desaparecer al consumirlas, lo que significa puede ser usada múltiples veces siempre y cuando esta no se desvanezca. Da un efecto de píldora al azar al uso.",
+                "Método de desbloqueo": "Derrota aMega SatancomoTainted Cain",
+                "ID": "5.70.14"
+            },
+            {
+                "name": "Horse pill gold-gold(Píldora de caballo dorada-dorada)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/0/06/Horse_pill_gold-gold.png/revision/latest?cb=20210809175211&path-prefix=es",
+                "Descripción": "Las pildoras doradas de caballo tienen un chance de desaparecer al consumirlas mientras que tambien tienen efectos duplicados.",
+                "Método de desbloqueo": "",
+                "ID": "5.70.2062"
+            },
+            {
+                "name": "Black Sack(Saco Negro)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/f/fa/Black_sack_2.png/revision/latest?cb=20210809162356&path-prefix=es",
+                "Descripción": "Los sacos negros soltarán 2-3 píldoras, corazones negros o de hueso, y/o bombas al tomarlos.",
+                "Método de desbloqueo": "Derrota aMega SatancomoTainted Judas",
+                "ID": "5.69.2"
+            },
+            {
+                "name": "Micro Battery(Micro Batería)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/c/ce/Micro_battery.png/revision/latest?cb=20210809164133&path-prefix=es",
+                "Descripción": "Las micro baterías recargan el objeto activo del jugador por 2 barras al tomarlas.",
+                "Método de desbloqueo": "",
+                "ID": "5.90.2"
+            },
+            {
+                "name": "Mega Battery(Mega Batería)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/9/98/Mega_battery.png/revision/latest?cb=20210809164331&path-prefix=es",
+                "Descripción": "Las mega baterías recargan el objeto activo del jugador por 2 activaciones al tomarlas.",
+                "Método de desbloqueo": "",
+                "ID": "5.90.3"
+            },
+            {
+                "name": "Golden Battery(Batería Dorada)",
+                "image": "https://static.wikia.nocookie.net/bindingofisaac/images/5/56/Golden_battery.png/revision/latest?cb=20210809165044&path-prefix=es",
+                "Descripción": "Las baterías doradas recargan completamente el objeto activo del jugador, pero también dañan 1 corazón entero. Otra batería dorada aparecerá en una habitación al azar, pero no se mostrara en el mapa hasta que la descubras.",
+                "Método de desbloqueo": "Derrotar aMega SatancomoTainted Forgotten.",
+                "ID": "5.90.4"
+            }
+        ]
+    }
+  ]
 }

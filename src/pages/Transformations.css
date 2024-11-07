@@ -1,4 +1,18 @@
-/* Transformations.css */
+.container {
+  width: 70vw;
+  max-width: 80vw;
+  height: 120vh;
+  background-image: url('/public/images/unnamed.png');
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5vw;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
 .transformations-container {
     padding: 20px;
     text-align: center;

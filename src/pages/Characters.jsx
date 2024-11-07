@@ -30,7 +30,7 @@ const Characters = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h2>Characters</h2>
       <button onClick={toggleTainted}>
         {isTainted ? "Mostrar Characters" : "Mostrar Tainted"}

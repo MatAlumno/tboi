@@ -42,7 +42,7 @@ const TarotGallery = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Galería de Cartas del Tarot</h1>
       <input
         type="text"

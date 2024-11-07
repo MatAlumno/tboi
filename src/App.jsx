@@ -23,7 +23,6 @@ const App = () => {
       <Router> 
         <div className="App">
           <Header />
-          <div className="container">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/bosses" element={<Bosses />} />
@@ -37,7 +36,6 @@ const App = () => {
               <Route path="/transformations" element={<Transformations />} />
               <Route path="/trinkets" element={<Trinkets />} />
             </Routes>
-          </div>
           <Footer />
         </div>
       </Router>

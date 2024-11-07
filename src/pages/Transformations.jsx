@@ -35,12 +35,14 @@ const Transformations = () => {
   }, []);
 
   return (
-    <div className="transformations-container">
-      <h2>Transformations</h2>
-      <div className="cards">
-        {transformations.map((transformation) => (
-          <TransformationCard key={transformation.name} transformation={transformation} />
-        ))}
+    <div className="container">
+      <div className="transformations-container">
+        <h2>Transformations</h2>
+        <div className="cards">
+          {transformations.map((transformation) => (
+            <TransformationCard key={transformation.name} transformation={transformation} />
+          ))}
+        </div>
       </div>
     </div>
   );

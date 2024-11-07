@@ -1,7 +1,10 @@
+import "./Extra.css";
 
 const Extra = () => {
     return (
-      <h2>Extra</h2>
+      <div className="container">
+        <h2>Extra</h2>
+      </div>
     );
   };
   
