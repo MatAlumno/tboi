@@ -47,10 +47,9 @@ const Bosses = () => {
         </div>
       </div>
 
-      {/* Solo se añade scroll a la galería de jefes */}
       <div className="boss-gallery">
         {filteredBosses.length > 0 ? (
-          <div className="gallery">
+          <div className="B-gallery">
             {filteredBosses.map((boss) =>
               boss.images.map((image, index) => (
                 <div key={index} className="boss-card">

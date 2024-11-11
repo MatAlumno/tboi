@@ -7,26 +7,22 @@ const TarotGallery = () => {
   const [filteredCards, setFilteredCards] = useState({});
 
   useEffect(() => {
-    // Fetch the cards from the API
     fetch('http://localhost:3000/Cards')
       .then(response => response.json())
       .then(data => {
-        // Combine all categories into a single object
         const allCards = {
           Tarot: data.Tarot,
           "Flipped Tarot": data["Flipped Tarot"],
           "Playing Cards": data["Playing Cards"],
           "Magic Cards": data["Magic Cards"],
           "Extra Cards": data["Extra Cards"],
-          // Agrega aquí otras categorías de cartas según tu JSON
         };
         setCards(allCards);
-        setFilteredCards(allCards); // Initial filter
+        setFilteredCards(allCards); 
       })
       .catch(error => console.error('Error fetching cards:', error));
   }, []);
 
-  // Filter cards based on search term
   useEffect(() => {
     const results = {};
     for (const category in cards) {
@@ -42,7 +38,7 @@ const TarotGallery = () => {
   };
 
   return (
-    <div className="container">
+    <div className="card-container">
       <h1>Galería de Cartas del Tarot</h1>
       <input
         type="text"

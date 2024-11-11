@@ -15,6 +15,13 @@
   cursor: url('/public/imagenes/cursor-click.png'), auto;
 }
 
+img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: optimizeQuality;
+}
+
+
 a {
   cursor: url('/public/imagenes/cursor-pointer.png'), pointer;
 }

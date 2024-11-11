@@ -1,51 +1,51 @@
-.container {
+.trans-container {
   width: 70vw;
   max-width: 80vw;
   height: 120vh;
-  background-image: url('/public/images/unnamed.png');
+  background-image: url("/public/images/unnamed (7).png");
   background-size: 100% 100%;
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding: 5vw;
+  padding: 6vw;
   overflow-y: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .transformations-container {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    width: 300px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-  }
-  
+  text-align: center;
+}
+
+.transformations-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.transformations-card {
+  border-radius: 1rem;
+  padding: 1vw;
+  width: 12vw;
+  background-color: #ffffff73;
+  transition: transform 0.4s;
+}
+.transformations-card p {
+  text-align:left;
+  font-size: 1rem;
+}
+.transformations-card ul {
+  font-size: 0.7rem;
+}
+
+.transformations-card:hover {
+  transform: scale(1.35);
+}
+
+.transformations-card-image {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}

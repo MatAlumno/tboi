@@ -8,59 +8,55 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  padding: 5vw;
+  flex-direction: row;
+  padding: 2vw;
   overflow-y: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  margin: auto; /* Centrado horizontal y vertical si está dentro de un contenedor */
+  margin: auto;
 }
 
 .gallery {
-  width: 70%; /* Ajusta el ancho según tus necesidades */
+  width: 40vw;
   padding: 10px;
-  overflow-y: auto; /* Permite el desplazamiento vertical si hay muchos enemigos */
+  overflow-y: auto; 
 }
 
 .search-bar {
-  width: 100%; /* El campo de búsqueda ocupa todo el ancho */
+  width: 100%; 
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 10px; /* Espacio debajo del campo de búsqueda */
+  margin-bottom: 10px;
 }
 
 .enemy-list {
   display: flex;
-  flex-direction: column; /* Coloca los enemigos en columna */
+  flex-direction: column;
 }
 
 .enemy-card {
   display: flex;
   align-items: center;
-  margin: 5px 0; /* Espaciado entre enemigos */
-  cursor: pointer; /* Indica que la imagen es clickeable */
+  margin: 5px 0; 
+  cursor: pointer; 
 }
 
 .enemy-image {
-  width: 50px; /* Tamaño de la imagen en la galería */
+  width: 5vw; 
   height: auto;
-  margin-right: 10px; /* Espacio entre imagen y nombre */
-  border-radius: 4px; /* Bordes redondeados */
+  margin-right: 1rem;
 }
 
 .details {
-  width: 30%; /* Ajusta el ancho según tus necesidades */
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
-  border-left: 2px solid #007bff; /* Línea de separación */
-  overflow-y: auto; /* Permite desplazamiento vertical */
+  margin-left: 5vw;
+  width: 35vw;
+  padding: 3rem;
+  overflow-y: auto;
 }
 
 .details h2 {
-  margin-bottom: 10px; /* Espaciado entre el título y la descripción */
+  margin-bottom: 2rem;
 }
 
 .details img {
-  width: 100%; /* La imagen grande ocupa el 100% del ancho disponible */
+  width: 15vw; 
   height: auto;
 }

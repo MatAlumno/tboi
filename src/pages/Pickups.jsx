@@ -6,12 +6,12 @@ const Pickups = () => {
   const [pickups, setPickups] = useState([]);
 
   useEffect(() => {
-    // Reemplaza la URL con la URL de tu API real
+    
     axios.get('http://localhost:3000/Pickups')
       .then((response) => {
         const data = response.data;
-        // Accede a la lista de pickups en la respuesta y asigna a tu estado
-        const items = data.flatMap((version) => version.items); // Esto te da una lista combinada de todos los pickups
+        
+        const items = data.flatMap((version) => version.items); 
         setPickups(items);
       })
       .catch((error) => {

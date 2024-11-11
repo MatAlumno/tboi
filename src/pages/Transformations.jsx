@@ -2,10 +2,9 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Transformations.css';
 
-// Componente para cada tarjeta de transformación
 const TransformationCard = ({ transformation }) => (
-  <div className="card">
-    <img src={transformation.image.url} alt={transformation.image.description} className="card-image" />
+  <div className="transformations-card">
+    <img src={transformation.image.url} alt={transformation.image.description} className="transformations-card-image" />
     <h3>{transformation.name}</h3>
     <p>{transformation.description}</p>
     <h4>Items:</h4>
@@ -17,14 +16,13 @@ const TransformationCard = ({ transformation }) => (
   </div>
 );
 
-// Componente principal
 const Transformations = () => {
   const [transformations, setTransformations] = useState([]);
 
   useEffect(() => {
     const fetchTransformations = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/Transformations'); // Cambia la URL según tu configuración
+        const response = await axios.get('http://localhost:3000/Transformations');
         setTransformations(response.data);
       } catch (error) {
         console.error("Error fetching transformations:", error);
@@ -35,10 +33,10 @@ const Transformations = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="trans-container">
       <div className="transformations-container">
         <h2>Transformations</h2>
-        <div className="cards">
+        <div className="transformations-cards">
           {transformations.map((transformation) => (
             <TransformationCard key={transformation.name} transformation={transformation} />
           ))}

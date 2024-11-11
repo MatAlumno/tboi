@@ -10,7 +10,7 @@ const Items = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/Items'); // Cambia la URL si es necesario
+        const response = await axios.get('http://localhost:3000/Items');
         setItems(response.data);
         setFilteredItems(response.data);
       } catch (error) {
@@ -74,7 +74,7 @@ const Items = () => {
         </table>
       </div>
       
-      <div className="additional-section">
+      <div className="items-additional-section">
         <h1>tablaaa</h1>
         <p> Sección Adicional negracidos</p>
       </div>

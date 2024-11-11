@@ -18,11 +18,11 @@
   padding: 4.78rem 2vw;
   overflow-y: auto;
   aspect-ratio: 16 / 9;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 
-.additional-section {
+.items-additional-section {
   width: 75vw;
   max-width: 85vw;
   height: 100vh;

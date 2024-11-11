@@ -8,73 +8,84 @@
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  padding: 5vw;
+  flex-direction: row; 
+  padding: 2vw;
   overflow-y: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  margin: auto; /* Centrado horizontal y vertical si está dentro de un contenedor */
+  margin: auto;
 }
 
-
 .categories {
-  width: 30%; /* Ocupa el 30% del contenedor */
-  padding: 2vw; /* Espaciado responsivo */
-  background-color: rgba(255, 255, 255, 0.9);
+  width: 30vw;
+  padding: 2vw;
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* Evitar el desbordamiento */
+  gap: 6vh;
+  overflow: hidden;
 }
 
 .category-buttons {
   display: flex;
   flex-direction: column;
-  gap: 1vw; /* Espaciado entre botones */
+  gap: 1vw;
 }
 
 .category-button {
-  background-color: #007bff; /* Color de fondo del botón */
+  background-color: #310000;
   color: white;
   border: none;
-  padding: 1vw; /* Espaciado interno */
-  border-radius: 5px;
+  padding: 1.2vw;
+  border-radius: 0.5rem;
   cursor: pointer;
-  font-size: 1.2rem; /* Tamaño de fuente responsivo */
-  transition: background-color 0.3s; /* Transición suave */
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
 }
 
 .category-button:hover {
-  background-color: #0056b3; /* Color al pasar el mouse */
+  background-color:#550808;
 }
 
 .category-button.active {
-  background-color: #0056b3; /* Color activo */
+  background-color: #8f1717;
 }
 
 .boss-gallery {
-  width: 70%; /* Ocupa el 70% del contenedor */
+  margin-left: 15vw;
+  width: 35vw;
   padding: 2vw;
-  overflow-x: auto; /* Desplazamiento horizontal */
-  white-space: nowrap; /* Asegura que el contenido no se envuelva */
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+  align-items: center;
 }
 
-.gallery {
-  display: inline-flex; /* Permite que los elementos se mantengan en línea */
+.B-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  justify-content: center;
 }
 
 .boss-card {
   text-align: center;
-  display: inline-block; /* Permite que las tarjetas se mantengan en línea */
-  width: 200px; /* Ancho fijo para las tarjetas */
-  margin: 0 10px; /* Espacio horizontal entre tarjetas */
+  width: 13vw;
+  padding: 1vw;
+  border-radius: 1rem;
+  background-color: #ffefefc2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.363);
+  transition: transform 0.3s;
+}
+
+.boss-card:hover {
+  transform: scale(1.25);
 }
 
 .boss-image {
-  width: 100%; /* Ancho completo */
-  height: auto; /* Mantiene la proporción */
-  border-radius: 5px; /* Bordes redondeados */
+  width: 100%;
+  height: auto;
 }
 
 .boss-name {
-  margin-top: 1vw; /* Espacio entre la imagen y el nombre */
-  font-size: 1rem; /* Tamaño de fuente responsivo */
+  margin-top: 1vw;
+  font-size: 1.5rem;
 }
