@@ -12284,6 +12284,8 @@
   ],
   "Characters": {
     "Isaac": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e5/Character_Isaac_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Character_Isaac_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12294,25 +12296,17 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x1 bombs",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
             "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "name": "The D6"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/10/Achievement_Isaac%27s_Head_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6d/Achievement_Lost_Baby_icon.png",
@@ -12332,6 +12326,8 @@
       "All Marks with every character": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/Achievement_Mega_Mush_icon.png"
     },
     "Magdalene": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Character_Magdalene_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Character_Magdalene_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12342,25 +12338,17 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "0.85",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x1 Full Health pill",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ea/Collectible_Yum_Heart_icon.png",
+            "name": "Yum Heart"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d4/Achievement_Maggy%27s_Bow_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2f/Achievement_Cute_Baby_icon.png",
@@ -12378,6 +12366,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e5/Achievement_Colorful_Baby_icon.png"
     },
     "Cain": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Character_Cain_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/Character_Cain_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12388,25 +12378,17 @@
       "Damage": "3.5 (*1.20)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "4.5",
       "Speed": "1.3",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x1 key, Paper Clip",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_Lucky_Foot_icon.png",
+            "name": "Lucky Foot"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/Achievement_Cain%27s_Other_Eye_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4f/Achievement_Glass_Baby_icon.png",
@@ -12424,6 +12406,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Achievement_Picky_Baby_icon.png"
     },
     "Judas": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8d/Character_Judas_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Character_Judas_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12434,25 +12418,17 @@
       "Damage": "3.5 (*1.35)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x3 coins",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Collectible_The_Book_of_Belial_icon.png",
+            "name": "The Book of Belial"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Achievement_Judas%27_Shadow_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Achievement_Shadow_Baby_icon.png",
@@ -12470,6 +12446,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/63/Achievement_Belial_Baby_icon.png"
     },
     "Dark Judas": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Collectible_Judas%27_Shadow_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Character_Dark_Judas_icon.png",
       "Health": [
         {
           "type": "Black Heart",
@@ -12480,25 +12458,17 @@
       "Damage": "3.5 (*2.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.1",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "None"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Achievement_Judas%27_Shadow_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3b/Achievement_Shadow_Baby_icon.png",
@@ -12516,6 +12486,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/63/Achievement_Belial_Baby_icon.png"
     },
     "???": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9a/Character_%3F%3F%3F_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Character_%3F%3F%3F_%28Character%29_icon.png",
       "Health": [
         {
           "type": "Soul Heart",
@@ -12526,25 +12498,17 @@
       "Damage": "3.5 (*1.05)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.1",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/Collectible_The_Poop_icon.png",
+            "name": "The Poop"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Achievement_Blue_Baby%27s_Only_Friend_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Achievement_Dead_Baby_icon.png",
@@ -12562,6 +12526,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/eb/Achievement_Hive_Baby_icon.png"
     },
     "Eve": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Character_Eve_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Character_Eve_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12572,25 +12538,25 @@
       "Damage": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/31/HUD_heart_red_full.png",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.23",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Collectible_Whore_of_Babylon_icon.png",
+            "name": "Whore of Babylon"
           },
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Collectible_Dead_Bird_icon.png",
+            "name": "Dead Bird"
+          },
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Collectible_Razor_Blade_icon.png",
+            "name": "Razor Blade"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Achievement_Eve%27s_Mascara_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/Achievement_Crow_Baby_icon.png",
@@ -12608,6 +12574,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Achievement_Whore_Baby_icon.png"
     },
     "Samson": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8c/Character_Samson_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Character_Samson_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12618,25 +12586,17 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "-0.1",
       "Shot Speed": "1.31",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "5.0",
       "Speed": "1.1",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "Child's Heart",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/86/Collectible_Bloody_Lust_icon.png",
+            "name": "Bloody Lust"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1a/Achievement_Samson%27s_Chains_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/Achievement_Fighting_Baby_icon.png",
@@ -12654,6 +12614,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/Achievement_Revenge_Baby_icon.png"
     },
     "Azazel": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/06/Character_Azazel_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Character_Azazel_icon.png",
       "Health": [
         {
           "type": "Black Heart",
@@ -12664,25 +12626,21 @@
       "Damage": "3.5 (*1.50)",
       "Tears": "+0.5, x0.267",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "4.5",
       "Speed": "1.25",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "0 - The Fool",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/46/Collectible_Brimstone_icon.png",
+            "name": "Brimstone"
           },
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "Flight"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/09/Achievement_The_Nail_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4c/Achievement_Begotten_Baby_icon.png",
@@ -12700,6 +12658,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/42/Achievement_Sucky_Baby_icon.png"
     },
     "Lazarus": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/78/Character_Lazarus_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Character_Lazarus_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12710,25 +12670,17 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "4.5",
       "Speed": "1.0",
       "Luck": "-1",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x1 pills",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Collectible_Anemic_icon.png",
+            "name": "Anemic"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Achievement_Missing_No._icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Achievement_Wrapped_Baby_icon.png",
@@ -12746,6 +12698,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Achievement_Dripping_Baby_icon.png"
     },
     "Lazarus Risen": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/78/Character_Lazarus_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Character_Lazarus_Risen_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12756,25 +12710,17 @@
       "Damage": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.25",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Collectible_Anemic_icon.png",
+            "name": "Anemic"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/Achievement_Missing_No._icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Achievement_Wrapped_Baby_icon.png",
@@ -12792,6 +12738,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Achievement_Dripping_Baby_icon.png"
     },
     "Eden": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/83/Character_Eden_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a5/Character_Eden_icon.png",
       "Health": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Eden_Hearts_Animated.gif",
       "Damage": "3.5 \u00c2\u00b1 1.0 (*1.00)",
       "Tears": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
@@ -12799,22 +12747,14 @@
       "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
       "Speed": "1.0 \u00c2\u00b1 0.15",
       "Luck": "0 \u00c2\u00b1 1",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x0-2 bombsx0-1 keysx0-5 coinsx0-1 trinket, pill, or card",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "Random"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c3/Achievement_Undefined_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/17/Achievement_Glitch_Baby_icon.png",
@@ -12832,29 +12772,35 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Achievement_Cracked_Baby_icon.png"
     },
     "The Lost": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f0/Character_The_Lost_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Character_The_Lost_icon.png",
       "Health": "No Health",
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5 ± 1.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x1 coin",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
+            "image": "",
+            "name": "Flight"
           },
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "Spectral tears"
+          },
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Collectible_Eternal_D6_icon.png",
+            "name": "Eternal D6"
+          },
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2a/Collectible_Holy_Mantle_icon.png",
+            "name": "Holy Mantle"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f2/Achievement_The_D100_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Achievement_-0-_Baby_icon.png",
@@ -12872,6 +12818,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/42/Achievement_Godhead_icon.png"
     },
     "Lilith": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a8/Character_Lilith_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Character_Lilith_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12887,25 +12835,29 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cf/Blindfolded.png",
+            "name": "Blindfolded"
           },
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Incubus_icon.png",
+            "name": "Incubus"
+          },
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8d/Collectible_Cambion_Conception_icon.png",
+            "name": "Cambion Conception"
+          },
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Collectible_Box_of_Friends_icon.png",
+            "name": "Box of Friends"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Achievement_Immaculate_Conception_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a7/Achievement_Goat_Head_Baby_icon.png",
@@ -12923,6 +12875,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/51/Achievement_Dark_Baby_icon.png"
     },
     "Keeper": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/20/Character_Keeper_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Character_Keeper_icon.png",
       "Health": [
         {
           "type": "Coin Heart",
@@ -12931,27 +12885,23 @@
         }
       ],
       "Damage": "3.5 (*1.20)",
-      "Tears": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Tears": "-1.9",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
-      "Speed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
+      "Speed": "0.9",
       "Luck": "-2",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x1 bombs, x1 coins, Store Key",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
+            "image": "",
+            "name": "Triple shot"
           },
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/ba/Collectible_Wooden_Nickel_icon.png",
+            "name": "Wooden Nickel"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ad/Achievement_Sticky_Nickels_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/Achievement_Super_Greed_Baby_icon.png",
@@ -12969,6 +12919,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c5/Achievement_Sale_Baby_icon.png"
     },
     "Apollyon": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Character_Apollyon_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Character_Apollyon_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -12979,25 +12931,17 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/Collectible_Void_icon.png",
+            "name": "Void"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Achievement_Locust_of_Conquest_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f5/Achievement_Smelter_icon.png",
@@ -13015,6 +12959,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Achievement_Apollyon_Baby_icon.png"
     },
     "The Forgotten": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Character_The_Forgotten_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Character_The_Forgotten_icon.png",
       "Health": [
         {
           "type": "Bone Heart",
@@ -13025,25 +12971,17 @@
       "Damage": "3.5 (*1.50)",
       "Tears": "+0, x1/2",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "Bone club"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Achievement_Divorce_Papers_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/73/Achievement_Marrow_icon.png",
@@ -13061,6 +12999,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Achievement_Bone_Baby_icon.png"
     },
     "The Soul": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Character_The_Forgotten_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Character_The_Soul_%28Character%29_icon.png",
       "Health": [
         {
           "type": "Soul Heart",
@@ -13071,25 +13011,21 @@
       "Damage": "3.5 (*1.00)",
       "Tears": "+0",
       "Shot Speed": "1",
-      "Range": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Dlc_nr_indicator.png",
+      "Range": "6.5",
       "Speed": "1.3",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
+            "image": "",
+            "name": "Flight"
           },
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "Spectral tears"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Achievement_Divorce_Papers_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/73/Achievement_Marrow_icon.png",
@@ -13107,6 +13043,8 @@
       "All Marks completed": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Achievement_Bone_Baby_icon.png"
     },
     "Bethany": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/Character_Bethany_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Character_Bethany_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13120,22 +13058,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "+1",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "x4 soul charges",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5e/Collectible_Book_of_Virtues_icon.png",
+            "name": "Book of Virtues"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/af/Achievement_Beth%27s_Faith_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/98/Achievement_Wisp_Baby_icon.png",
@@ -13153,6 +13083,8 @@
       "All Marks completed": "ERROR"
     },
     "Jacob": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Character_Jacob_and_Esau_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/21/Character_Jacob_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13166,22 +13098,14 @@
       "Range": "5",
       "Speed": "1.0",
       "Luck": "-1",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "None"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Achievement_Rock_Bottom_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/Achievement_Double_Baby_icon.png",
@@ -13199,6 +13123,8 @@
       "All Marks completed": "ERROR"
     },
     "Esau": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Character_Jacob_and_Esau_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/de/Character_Esau_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13216,22 +13142,14 @@
       "Shot Speed": "0.85",
       "Range": "8",
       "Speed": "1.0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["x1", "bombs"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
         "images": [
           {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Unlockable.png",
-            "name": "Needs to be unlocked"
-          },
-          {
-            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png",
-            "name": "Collectible The D6 icon"
+            "image": "",
+            "name": "None"
           }
-        ],
-        "descriptions": ["The D6"]
+        ]
       },
       "Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b9/Achievement_Rock_Bottom_icon.png",
       "Mom's Heart": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/Achievement_Double_Baby_icon.png",
@@ -13251,6 +13169,8 @@
   },
   "Tainted": {
     "Tainted Isaac": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Character_Tainted_Isaac_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Character_Tainted_Isaac_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13264,13 +13184,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "1 bomb",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "None"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/88/Achievement_Soul_of_Isaac_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Achievement_Mom%27s_Lock_icon.png",
@@ -13281,6 +13202,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Magdalene": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Character_Tainted_Magdalene_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Character_Tainted_Magdalene_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13299,13 +13222,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "None",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ea/Collectible_Yum_Heart_icon.png",
+            "name": "Yum Heart"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Achievement_Soul_of_Magdalene_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/da/Achievement_Holy_Crown_icon.png",
@@ -13316,6 +13240,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Cain": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2e/Tainted_Cain_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Character_Tainted_Cain_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13329,13 +13255,14 @@
       "Range": "4.5",
       "Speed": "1.3",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "1 key",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/Collectible_Bag_of_Crafting_icon.png",
+            "name": "Bag of Crafting"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/63/Achievement_Soul_of_Cain_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Achievement_Gilded_Key_icon.png",
@@ -13346,6 +13273,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Judas": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0e/Tainted_Judas_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Character_Tainted_Judas_icon.png",
       "Health": [
         {
           "type": "Black Heart",
@@ -13359,13 +13288,14 @@
       "Range": "4.5",
       "Speed": "1.23",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "3 coins",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Collectible_Dark_Arts_icon.png",
+            "name": "Dark Arts"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/42/Achievement_Soul_of_Judas_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Achievement_Your_Soul_icon.png",
@@ -13376,6 +13306,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted ???": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c1/Tainted_Blue_Baby_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d8/Character_Tainted_%3F%3F%3F_icon.png",
       "Health": [
         {
           "type": "Soul Heart",
@@ -13389,13 +13321,14 @@
       "Range": "6.5",
       "Speed": "0.9",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "3 Poop bombs",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Collectible_Hold_icon.png",
+            "name": "Hold"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/88/Achievement_Soul_of_%3F%3F%3F_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ac/Achievement_Dingle_Berry_icon.png",
@@ -13406,6 +13339,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Eve": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Tainted_Eve_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Character_Tainted_Eve_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13419,13 +13354,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a0/Collectible_Sumptorium_icon.png",
+            "name": "Sumptorium"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Achievement_Soul_of_Eve_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/31/Achievement_Strange_Key_icon.png",
@@ -13436,6 +13372,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Samson": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/72/Tainted_Samson_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Character_Tainted_Samson_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13449,13 +13387,14 @@
       "Range": "5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "None"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/23/Achievement_Soul_of_Samson_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Achievement_Temporary_Tattoo_icon.png",
@@ -13466,6 +13405,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Azazel": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/61/Tainted_Azazel_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Character_Tainted_Azazel_icon.png",
       "Health": [
         {
           "type": "Black Heart",
@@ -13479,13 +13420,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "None"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2e/Achievement_Soul_of_Azazel_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ad/Achievement_Wicked_Crown_icon.png",
@@ -13496,6 +13438,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Lazarus": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Character_Tainted_Lazarus_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7d/Character_Tainted_Lazarus_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13509,13 +13453,14 @@
       "Range": "4.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/49/Collectible_Flip_icon.png",
+            "name": "Flip"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/da/Achievement_Soul_of_Lazarus_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5a/Achievement_Torn_Pocket_icon.png",
@@ -13525,7 +13470,9 @@
       "The Beast": "ERROR",
       "Mega Satan": "ERROR"
     },
-    "Dead Tainted Lazarus ": {
+    "Dead Tainted Lazarus": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5b/Character_Dead_Tainted_Lazarus_icon.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5b/Character_Dead_Tainted_Lazarus_icon.png",
       "Health": [
         {
           "type": "Soul Heart",
@@ -13539,13 +13486,14 @@
       "Range": "6.5",
       "Speed": "0.9",
       "Luck": "-2.00",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/40/Collectible_Flip_2_icon.png",
+            "name": "Flip"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/da/Achievement_Soul_of_Lazarus_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5a/Achievement_Torn_Pocket_icon.png",
@@ -13556,6 +13504,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Eden": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Character_Tainted_Eden_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Character_Tainted_Eden_icon.png",
       "Health": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/Eden_Hearts_Animated.gif",
       "Damage": "3.5 ± 1.0 (*1.00)",
       "Tears": "+0.75 to -0.5",
@@ -13563,13 +13513,14 @@
       "Range": "6.5 ± 1.5",
       "Speed": "1.0 ± 0.15",
       "Luck": "0 ± 1",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "Random"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/83/Achievement_Soul_of_Eden_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ab/Achievement_Nuh_Uh%21_icon.png",
@@ -13580,6 +13531,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Lost": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b7/Tainted_Lost_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Character_Tainted_Lost_icon.png",
       "Health": "No Health",
       "Damage": "3.5 (*1.30)",
       "Tears": "+0",
@@ -13587,13 +13540,18 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "Flight"
+          },
+          {
+            "image": "",
+            "name": "Spectral tears"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/54/Achievement_Soul_of_the_Lost_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bd/Achievement_Kid%27s_Drawing_icon.png",
@@ -13604,6 +13562,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Lilith": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a7/Tainted_Lilith_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/Character_Tainted_Lilith_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13622,13 +13582,14 @@
       "Range": "6.5",
       "Speed": "0.85",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "Demonic baby attack"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1d/Achievement_Soul_of_Lilith_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/Achievement_The_Twins_icon.png",
@@ -13639,6 +13600,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Keeper": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/05/Tainted_Keeper_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Character_Tainted_Keeper_icon.png",
       "Health": [
         {
           "type": "Coin Heart",
@@ -13652,13 +13615,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "-2.00",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "None"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dd/Achievement_Soul_of_the_Keeper_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Achievement_Keeper%27s_Bargain_icon.png",
@@ -13669,6 +13633,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Apollyon": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/27/Tainted_Apollyon_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4e/Character_Tainted_Apollyon_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13682,13 +13648,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/Collectible_Abyss_icon.png",
+            "name": "Abyss"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Achievement_Soul_of_Apollyon_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/26/Achievement_Cricket_Leg_icon.png",
@@ -13699,6 +13666,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Forgotten": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Character_Tainted_Forgotten_appearance.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Character_Tainted_Forgotten_icon.png",
       "Health": "No Health",
       "Damage": "3.5 (*1.50)",
       "Tears": "+0, x1/2",
@@ -13706,13 +13675,14 @@
       "Range": "6.5",
       "Speed": "－",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "Bone club"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fd/Achievement_Soul_of_the_Forgotten_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cd/Achievement_Polished_Bone_icon.png",
@@ -13723,6 +13693,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Soul": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b5/Character_Tainted_Soul_icon.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b5/Character_Tainted_Soul_icon.png",
       "Health": [
         {
           "type": "Soul Heart",
@@ -13736,13 +13708,14 @@
       "Range": "－",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "",
+            "name": "Flight"
+          }
+        ]
       },
       "Hush and Boss Rush": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fd/Achievement_Soul_of_the_Forgotten_icon.png",
       "Isaac, ???, Satan, and The Lamb": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cd/Achievement_Polished_Bone_icon.png",
@@ -13753,6 +13726,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Bethany": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ed/Tainted_Bethany_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Character_Tainted_Bethany_icon.png",
       "Health": [
         {
           "type": "Soul Heart",
@@ -13766,13 +13741,14 @@
       "Range": "6.5",
       "Speed": "1.0",
       "Luck": "0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_Lemegeton_icon.png",
+            "name": "Lemegeton"
+          }
+        ]
       },
       "Hush and Boss Rush": "ERROR",
       "Isaac, ???, Satan, and The Lamb": "ERROR",
@@ -13783,6 +13759,8 @@
       "Mega Satan": "ERROR"
     },
     "Tainted Jacob": {
+      "img": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/Tainted_Jacob_App.png",
+      "icon": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Character_Tainted_Jacob_icon.png",
       "Health": [
         {
           "type": "Red Heart",
@@ -13795,13 +13773,14 @@
       "Shot Speed": "1",
       "Range": "6.5",
       "Speed": "1.0",
-      "Starting Pickup(s)": {
-        "images": [],
-        "descriptions": ["1", "bomb"]
-      },
+      "Starting Pickup(s)": "",
       "Starting Item(s)": {
-        "images": [],
-        "descriptions": ["None"]
+        "images": [
+          {
+            "image": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Collectible_Anima_Sola_icon.png",
+            "name": "Anima Sola"
+          }
+        ]
       },
       "Hush and Boss Rush": "ERROR",
       "Isaac, ???, Satan, and The Lamb": "ERROR",
@@ -14964,7 +14943,7 @@
   "Audios": {
     "Pills": [
       {
-        "pill": "???",
+        "Name": "???",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/3Question_Voiceover1.wav",
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d3/3Question_Voiceover2.wav",
@@ -14977,7 +14956,7 @@
         ]
       },
       {
-        "pill": "48 Hour Energy",
+        "Name": "48 Hour Energy",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/82/48HourEnergyVoiceover.wav"
         ],
@@ -14986,7 +14965,7 @@
         ]
       },
       {
-        "pill": "Addicted",
+        "Name": "Addicted",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/eb/AddictedVoiceover.wav"
         ],
@@ -14995,7 +14974,7 @@
         ]
       },
       {
-        "pill": "Amnesia",
+        "Name": "Amnesia",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/41/AmnesiaVoiceover.wav"
         ],
@@ -15004,7 +14983,7 @@
         ]
       },
       {
-        "pill": "Bad Gas",
+        "Name": "Bad Gas",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/BadGasVoiceover.wav"
         ],
@@ -15013,7 +14992,7 @@
         ]
       },
       {
-        "pill": "Bad Trip",
+        "Name": "Bad Trip",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/BadTripVoiceover.wav"
         ],
@@ -15022,7 +15001,7 @@
         ]
       },
       {
-        "pill": "Balls of Steel",
+        "Name": "Balls of Steel",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/71/BallsOfSteelVoiceover.wav"
         ],
@@ -15031,7 +15010,7 @@
         ]
       },
       {
-        "pill": "Bombs Are Key",
+        "Name": "Bombs Are Key",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/BombsAreKeyVoiceover.wav"
         ],
@@ -15040,7 +15019,7 @@
         ]
       },
       {
-        "pill": "Experimental Pill",
+        "Name": "Experimental Pill",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/39/ExperimentalPillVoiceover.wav"
         ],
@@ -15049,7 +15028,7 @@
         ]
       },
       {
-        "pill": "Explosive Diarrhea",
+        "Name": "Explosive Diarrhea",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/ExplosiveDiahrreaVoiceover.wav"
         ],
@@ -15058,7 +15037,7 @@
         ]
       },
       {
-        "pill": "Feels like I'm walking on sunshine!",
+        "Name": "Feels like I'm walking on sunshine!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/FeelsLikeI%27mWalkingonSunshine.wav"
         ],
@@ -15067,7 +15046,7 @@
         ]
       },
       {
-        "pill": "Friends Till the End!",
+        "Name": "Friends Till the End!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/FriendsTillTheEndVoiceover.wav"
         ],
@@ -15076,7 +15055,7 @@
         ]
       },
       {
-        "pill": "Full Health",
+        "Name": "Full Health",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/FullHealthVoiceover.wav"
         ],
@@ -15085,7 +15064,7 @@
         ]
       },
       {
-        "pill": "Gulp!",
+        "Name": "Gulp!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/GulpVoiceover.wav"
         ],
@@ -15094,7 +15073,7 @@
         ]
       },
       {
-        "pill": "Health Down",
+        "Name": "Health Down",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a6/HealthDownVoiceover.wav"
         ],
@@ -15103,7 +15082,7 @@
         ]
       },
       {
-        "pill": "Health Up",
+        "Name": "Health Up",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/aa/HealthUpVoiceover.wav"
         ],
@@ -15112,7 +15091,7 @@
         ]
       },
       {
-        "pill": "Hematemesis",
+        "Name": "Hematemesis",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/03/HematemesisVoiceover.wav"
         ],
@@ -15121,7 +15100,7 @@
         ]
       },
       {
-        "pill": "Horf!",
+        "Name": "Horf!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/HorfVoiceover.wav"
         ],
@@ -15130,7 +15109,7 @@
         ]
       },
       {
-        "pill": "I Can See Forever",
+        "Name": "I Can See Forever",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cb/ICanSeeForeverVoiceover1.wav",
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/75/ICanSeeForeverVoiceover2.wav"
@@ -15140,7 +15119,7 @@
         ]
       },
       {
-        "pill": "I Found Pills",
+        "Name": "I Found Pills",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0b/IFoundPillsVoiceover.wav"
         ],
@@ -15149,7 +15128,7 @@
         ]
       },
       {
-        "pill": "I'm Drowsy...",
+        "Name": "I'm Drowsy...",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/I%27mDrowsyVoiceover.wav"
         ],
@@ -15158,7 +15137,7 @@
         ]
       },
       {
-        "pill": "I'm Excited!!!",
+        "Name": "I'm Excited!!!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/37/I%27mExcitedVoiceover.wav"
         ],
@@ -15167,7 +15146,7 @@
         ]
       },
       {
-        "pill": "Infested!",
+        "Name": "Infested!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/79/InfestedExclaimVoiceover.wav"
         ],
@@ -15176,7 +15155,7 @@
         ]
       },
       {
-        "pill": "Infested?",
+        "Name": "Infested?",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b4/InfestedQuestionVoiceover.wav"
         ],
@@ -15185,7 +15164,7 @@
         ]
       },
       {
-        "pill": "Lemon Party",
+        "Name": "Lemon Party",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/95/LemonPartyVoiceover.wav"
         ],
@@ -15194,7 +15173,7 @@
         ]
       },
       {
-        "pill": "Luck Down",
+        "Name": "Luck Down",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/65/LuckDownVoiceover.wav"
         ],
@@ -15203,7 +15182,7 @@
         ]
       },
       {
-        "pill": "Luck Up",
+        "Name": "Luck Up",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3e/LuckUpVoiceover.wav"
         ],
@@ -15212,7 +15191,7 @@
         ]
       },
       {
-        "pill": "One Makes You Larger",
+        "Name": "One Makes You Larger",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7f/OneMakesYouLargerVoiceover.wav"
         ],
@@ -15221,7 +15200,7 @@
         ]
       },
       {
-        "pill": "One Makes You Small",
+        "Name": "One Makes You Small",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4e/OneMakesYouSmallVoiceover.wav"
         ],
@@ -15230,7 +15209,7 @@
         ]
       },
       {
-        "pill": "Paralysis",
+        "Name": "Paralysis",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/ParalysisVoiceover.wav"
         ],
@@ -15239,7 +15218,7 @@
         ]
       },
       {
-        "pill": "Percs",
+        "Name": "Percs",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/34/PercsVoiceover.wav"
         ],
@@ -15248,7 +15227,7 @@
         ]
       },
       {
-        "pill": "Pheromones",
+        "Name": "Pheromones",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/84/PheromonesVoiceover.wav"
         ],
@@ -15257,7 +15236,7 @@
         ]
       },
       {
-        "pill": "Power Pill",
+        "Name": "Power Pill",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/10/PowerPillVoiceover.wav"
         ],
@@ -15266,7 +15245,7 @@
         ]
       },
       {
-        "pill": "Pretty Fly",
+        "Name": "Pretty Fly",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/PrettyFlyVoiceover.wav"
         ],
@@ -15275,7 +15254,7 @@
         ]
       },
       {
-        "pill": "Puberty",
+        "Name": "Puberty",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9b/PubertyVoiceover.wav"
         ],
@@ -15284,7 +15263,7 @@
         ]
       },
       {
-        "pill": "R U a Wizard?",
+        "Name": "R U a Wizard?",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/RUAWizardVoiceover.wav"
         ],
@@ -15293,7 +15272,7 @@
         ]
       },
       {
-        "pill": "Range Down",
+        "Name": "Range Down",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/RangeDownVoiceover.wav"
         ],
@@ -15302,7 +15281,7 @@
         ]
       },
       {
-        "pill": "Range Up",
+        "Name": "Range Up",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/99/RangeUpVoiceover.wav"
         ],
@@ -15311,7 +15290,7 @@
         ]
       },
       {
-        "pill": "Re-Lax",
+        "Name": "Re-Lax",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/68/ReLaxVoiceover.wav"
         ],
@@ -15320,7 +15299,7 @@
         ]
       },
       {
-        "pill": "Retro Vision",
+        "Name": "Retro Vision",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1e/RetroVisionVoiceover.wav"
         ],
@@ -15329,7 +15308,7 @@
         ]
       },
       {
-        "pill": "Shot Speed Down",
+        "Name": "Shot Speed Down",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/ShotSpeedDownVoiceover.wav"
         ],
@@ -15338,7 +15317,7 @@
         ]
       },
       {
-        "pill": "Shot Speed Up",
+        "Name": "Shot Speed Up",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/07/ShotSpeedUpVoiceover.wav"
         ],
@@ -15347,7 +15326,7 @@
         ]
       },
       {
-        "pill": "Something's wrong...",
+        "Name": "Something's wrong...",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/Something%27sWrongVoiceover.wav"
         ],
@@ -15356,7 +15335,7 @@
         ]
       },
       {
-        "pill": "Speed Down",
+        "Name": "Speed Down",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bb/SpeedDownVoiceover.wav"
         ],
@@ -15365,7 +15344,7 @@
         ]
       },
       {
-        "pill": "Speed Up",
+        "Name": "Speed Up",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/ae/SpeedUpVoiceover.wav"
         ],
@@ -15374,7 +15353,7 @@
         ]
       },
       {
-        "pill": "Tears Down",
+        "Name": "Tears Down",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/35/TearsDownVoiceover.wav"
         ],
@@ -15383,7 +15362,7 @@
         ]
       },
       {
-        "pill": "Tears Up",
+        "Name": "Tears Up",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/06/TearsUpVoiceover.wav"
         ],
@@ -15392,7 +15371,7 @@
         ]
       },
       {
-        "pill": "Telepills",
+        "Name": "Telepills",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/TelepillsVoiceover.wav"
         ],
@@ -15401,7 +15380,7 @@
         ]
       },
       {
-        "pill": "Vurp!",
+        "Name": "Vurp!",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/VurpVoiceover.wav"
         ],
@@ -15410,7 +15389,7 @@
         ]
       },
       {
-        "pill": "X-Lax",
+        "Name": "X-Lax",
         "voiceover_standard": [
           "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/14/XLaxVoiceover.wav"
         ],

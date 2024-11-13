@@ -1,4 +1,4 @@
-.container {
+.audios-container {
     width: 70vw;
     max-width: 80vw;
     height: 120vh;
@@ -11,5 +11,47 @@
     overflow-y: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  
+  .audios-category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .audios-category-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .audios-category-buttons button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .audio-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .audio-item {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .audio-variants {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  audio {
+    width: 100%;
   }
   

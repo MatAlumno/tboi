@@ -20,6 +20,7 @@ const EnemiesGallery = () => {
     fetchEnemies();
   }, []);
 
+  //Buscador especifico :b
   const filteredEnemies = enemiesData.filter((enemy) =>
     enemy.name.toLowerCase().includes(searchTerm.toLowerCase())
   );

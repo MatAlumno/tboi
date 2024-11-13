@@ -6,7 +6,7 @@ const Bosses = () => {
   const [bossData, setBossData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("Bosses");
   const [categories, setCategories] = useState([]);
-
+  //uso de un set()
   useEffect(() => {
     const fetchBosses = async () => {
       try {

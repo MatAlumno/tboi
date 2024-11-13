@@ -1,6 +1,11 @@
+.char {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .char-container {
-  width: 55%;
-  max-width: 65vw;
+  width: 50vw;
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,3 +51,28 @@
   width: 100%;
   border-radius: 5px;
 }
+
+
+.character-details {
+  width: 28vw;
+  max-width: 32vw;
+  padding: 6vw;
+  background-image: url('/public/images/unnamed (5).png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+.life_img {
+  width: 10%;
+} 
