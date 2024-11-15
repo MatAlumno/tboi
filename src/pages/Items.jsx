@@ -25,13 +25,13 @@ const Items = () => {
     setFilteredItems(
       items.filter(item => 
         item.item_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        item.item_desc.toLowerCase().includes(searchTerm.toLowerCase())
+        item.item_description.toLowerCase().includes(searchTerm.toLowerCase())
       )
     );
   }, [searchTerm, items]);
 
   const getDefaultValue = (value) => {
-    return value || 'No disponible';
+    return value || ' --- ';
   };
 
   return (
@@ -47,27 +47,25 @@ const Items = () => {
         <table>
           <thead>
             <tr>
-              <th>Nombre</th>
-              <th>Descripción</th>
-              <th>Calidad</th>
+              <th>ID</th>
+              <th>Item</th>
               <th>Tipo</th>
-              <th>Juego</th>
-              <th>Piscina</th>
-              <th>Tag</th>
-              <th>Transformación</th>
+              <th>Calidad</th>
+              <th>Pista</th>
+              <th>Descripción</th>
+              <th>Pool</th>
             </tr>
           </thead>
           <tbody>
             {filteredItems.map(item => (
               <tr key={item.item_id}>
-                <td>{getDefaultValue(item.item_name)}</td>
-                <td>{getDefaultValue(item.item_desc)}</td>
-                <td>{getDefaultValue(item.item_quality)}</td>
-                <td>{getDefaultValue(item.item_type)}</td>
-                <td>{getDefaultValue(item.item_game)}</td>
-                <td>{getDefaultValue(item.item_pool)}</td>
-                <td>{getDefaultValue(item.item_tag)}</td>
-                <td>{getDefaultValue(item.item_transformation)}</td>
+                <td>{item.ID}</td>
+                <td>{item.item_name}<img src={item.image} alt={item.item_name}/> </td>
+                <td>{item.item_type}</td>
+                <td>{item.item_quality}</td>
+                <td>{item.item_quote}</td>
+                <td>{item.item_description}</td>
+                <td>{item.item_pool}</td>
               </tr>
             ))}
           </tbody>

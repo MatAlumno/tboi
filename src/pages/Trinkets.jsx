@@ -25,10 +25,8 @@ const Trinkets = () => {
     setFilteredTrinkets(
       trinkets.filter(
         (trinket) =>
-          trinket.trinket_name
-            .toLowerCase()
-            .includes(searchTerm.toLowerCase()) ||
-          trinket.trinket_desc.toLowerCase().includes(searchTerm.toLowerCase())
+          trinket.trinket_name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          trinket.trinket_description.toLowerCase().includes(searchTerm.toLowerCase())
       )
     );
   }, [searchTerm, trinkets]);
@@ -47,24 +45,20 @@ const Trinkets = () => {
         />
         <table>
           <thead>
-            <tr>
-              <th>Nombre</th>
+          <tr>
+              <th>ID</th>
+              <th>Trinket</th>
+              <th>Pista</th>
               <th>Descripción</th>
-              <th>Juego</th>
-              <th>Unlock Character</th>
-              <th>Unlock Boss</th>
-              <th>Misc Unlock</th>
             </tr>
           </thead>
           <tbody>
             {filteredTrinkets.map((trinket) => (
               <tr key={trinket.trinket_id}>
-                <td>{getDefaultValue(trinket.trinket_name)}</td>
-                <td>{getDefaultValue(trinket.trinket_desc)}</td>
-                <td>{getDefaultValue(trinket.trinket_game)}</td>
-                <td>{getDefaultValue(trinket.unlock_char)}</td>
-                <td>{getDefaultValue(trinket.unlock_boss)}</td>
-                <td>{getDefaultValue(trinket.misc_unlock)}</td>
+                <td>{trinket.trinket_ID}</td>
+                <td>{trinket.trinket_name}<img src={trinket.image} alt={trinket.trinket_name}/> </td>
+                <td>{trinket.trinket_quote}</td>
+                <td>{trinket.trinket_description}</td>
               </tr>
             ))}
           </tbody>
