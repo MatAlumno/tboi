@@ -5,13 +5,12 @@ const Footer = () => {
     <footer className="footer">
       <img src="/images/logo.png" alt="logo" className="logo-footer" />
       <div className="text-footer">
-        <p>© 2024 Tu Empresa. Todos los derechos reservados.</p>
+        <p>© 2024 Ricau Industries. No me roben los derecho :D</p>
       </div>
       <ul className="links-footer">
-        <li><a href="link1">Link 1</a></li>
-        <li><a href="link2">Link 2</a></li>
-        <li><a href="link3">Link 3</a></li>
-        <li><a href="link4">Link 4</a></li>
+        <li><a href="https://tboi.com/">Cheat Sheet tboi</a></li>
+        <li><a href="https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki">wiki tboi</a></li>
+        <li><a href="https://store.steampowered.com/app/1426300/The_Binding_of_Isaac_Repentance/">Compra el juego</a></li>
       </ul>
     </footer>
   );

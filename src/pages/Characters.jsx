@@ -43,8 +43,7 @@ const Characters = () => {
             isTainted ? "char-container-3" : "char-container-2"
           }`}
         >
-          <h2>Characters</h2>
-          <button onClick={toggleTainted}>
+          <button onClick={toggleTainted} className="button_appearence">
             {isTainted ? "Mostrar Characters" : "Mostrar Tainted"}
           </button>
           <div className="gallery">

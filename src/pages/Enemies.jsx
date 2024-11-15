@@ -33,7 +33,7 @@ const EnemiesGallery = () => {
           placeholder="Buscar enemigos..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="search-bar"
+          className="input_appearance"
         />
         <div className="enemy-list">
           {filteredEnemies.map((enemy) => (

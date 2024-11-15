@@ -34,6 +34,43 @@ body, input, textarea {
   cursor: url('/public/imagenes/cursor-text.png'), text;
 }
 
+.button_appearence {
+  margin-top: 5vh;
+  width: 25vw;
+  font-size: 2vw;
+  padding: 2vh 2vw;
+  border: none;
+  border-radius: 1.5vw;
+  background-color: #aa494988;
+  color: #310000;
+  transition: background-color 0.3s;
+}
+.button_appearence:hover {
+  background-color: #cf808079;
+}
+
+.input_appearance {
+  margin-top: 5vh;
+  width: 25vw;
+  height: 5vh;
+  font-size: 1.5vw;
+  padding: 2vh 2vw;
+  border: none;
+  border-radius: 1.5vw;
+  background-color: #6329297a;
+  color: #ffe0e0;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  outline: none;
+}
+.input_appearance:hover {
+  background-color: #421010a1;
+}
+.input_appearance:focus {
+  background-color: #4e1010bb; 
+  box-shadow: 0 0 0.2vw 0.1vw #3504047e; 
+}
+
+
 .full-cover {
   position: fixed;
   top: 0;

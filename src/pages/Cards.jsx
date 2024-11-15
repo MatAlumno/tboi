@@ -39,12 +39,13 @@ const TarotGallery = () => {
 
   return (
     <div className="card-container">
-      <h1>Galería de Cartas del Tarot</h1>
+      <h1>Cartas</h1>
       <input
         type="text"
         placeholder="Buscar cartas..."
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        className='input_appearance'
       />
       <div className="card-gallery">
         {Object.keys(filteredCards).map(category => (
