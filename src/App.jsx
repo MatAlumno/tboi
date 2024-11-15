@@ -17,7 +17,9 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <img src="/images/fly.gif" alt="shadow"/>
+      <a href="https://youtu.be/BTCW6yxUvLM?feature=shared&t=110" target="_blank" rel="noopener noreferrer">
+        <img src="/images/fly.gif" alt="shadow" className="fly" />
+      </a>
       <img src="/images/menuoverlay.png" alt="shadow" className="full-cover"/>
       <img src="/images/menushadow.png" alt="shadow" className="full-cover"/>  
       <Router> 

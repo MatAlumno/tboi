@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'tboi';
-  src: url('/public/upheavtt.ttf') format('truetype');
+  font-family: "tboi";
+  src: url("/public/upheavtt.ttf") format("truetype");
 }
 
 * {
-  font-family: 'tboi', sans-serif;
+  font-family: "tboi", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: url('/public/imagenes/cursor-default.png'), auto;
+  cursor: url("/public/imagenes/cursor-default.png"), auto;
 }
 
 *:active {
-  cursor: url('/public/imagenes/cursor-click.png'), auto;
+  cursor: url("/public/imagenes/cursor-click.png"), auto;
 }
 
 img {
@@ -21,17 +21,18 @@ img {
   image-rendering: optimizeQuality;
 }
 
-
 a {
-  cursor: url('/public/imagenes/cursor-pointer.png'), pointer;
+  cursor: url("/public/imagenes/cursor-pointer.png"), pointer;
 }
 
 body.waiting {
-  cursor: url('/public/imagenes/cursor-wait.png'), wait;
+  cursor: url("/public/imagenes/cursor-wait.png"), wait;
 }
 
-body, input, textarea {
-  cursor: url('/public/imagenes/cursor-text.png'), text;
+body,
+input,
+textarea {
+  cursor: url("/public/imagenes/cursor-text.png"), text;
 }
 
 .button_appearence {
@@ -66,10 +67,9 @@ body, input, textarea {
   background-color: #421010a1;
 }
 .input_appearance:focus {
-  background-color: #4e1010bb; 
-  box-shadow: 0 0 0.2vw 0.1vw #3504047e; 
+  background-color: #4e1010bb;
+  box-shadow: 0 0 0.2vw 0.1vw #3504047e;
 }
-
 
 .full-cover {
   position: fixed;
@@ -77,12 +77,25 @@ body, input, textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; 
-  z-index: -1; 
+  object-fit: cover;
+  z-index: -1;
+}
+.fly {
+  position: fixed; 
+  bottom: 20vh; 
+  right: 5vw;
+  width: 9vw; 
+  height: auto; 
+  object-fit: contain; 
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.fly:hover {
+  transform: scale(1.3);
 }
 
 body {
-  background-image: url('/public/images/fondo.png');
+  background-image: url("/public/images/fondo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +117,7 @@ body {
   width: 70vw;
   max-width: 80vw;
   height: 120vh;
-  background-image: url('/public/images/unnamed.png');
+  background-image: url("/public/images/unnamed.png");
   background-size: 100% 100%;
   background-position: center;
   display: flex;
